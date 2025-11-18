@@ -62,7 +62,6 @@ Univerzita Karlova
 **Příklad 2 (Klimatická psychologie):**
 "Klimatická změna představuje jednu z největších výzev současnosti, přičemž její psychologické dopady na jedince zůstávají nedostatečně zmapované. Koncept klimatické úzkosti (climate anxiety) získává na významu, avšak v českém prostředí chybí validizované nástroje pro její měření. Mezinárodní studie naznačují, že mladí dospělí jsou klimatickou úzkostí zasaženi nejsilněji."
 
-
 ---
 
 ### 2. VÝZKUMNÝ PROBLÉM

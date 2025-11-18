@@ -4,16 +4,22 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	integrations: [
-		starlight({
-			title: 'KPVZ FHS Kurzy',
-			social: [{ icon: 'seti:html', label: 'web', href: 'https://kpvz.cyberspacelab.cz' }],
-			sidebar: [
-				{
-					label: 'Bakalářský diplomní seminář',
-					autogenerate: { directory: 'diploma-seminar-bachelor' },
-				},
-			],
-		}),
-	],
+  integrations: [
+    starlight({
+      title: 'KPVZ FHS Kurzy',
+      locales: {
+        root: {
+          label: 'Česky',
+          lang: 'cs',
+        },
+      },
+      social: [{ icon: 'seti:html', label: 'web', href: 'https://kpvz.cyberspacelab.cz' }],
+      sidebar: [
+        {
+          label: 'Bakalářský diplomní seminář',
+          autogenerate: { directory: 'diploma-seminar-bachelor' },
+        },
+      ],
+    }),
+  ],
 });

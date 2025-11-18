@@ -11,3 +11,16 @@ V prvním semestru jsou dva klíčové termíny, které musí student a jeho ved
 1. Odevzdání krátkého metodologického posteru (formát A1) – poslední hodina v lednu (5. 1. 2025)
 2. Odevzdání kompletního projektového návrhu do konce ledna
 :::
+
+## Typický harmonogram semináře
+
+**říjen:** Úvod do kurzu, diskuse o výběru tématu a vedoucího práce, přehled požadavků na bakalářskou práci.
+
+**listopad:** Konzultace k výzkumným otázkám, metodologii a literatuře.
+
+**prosinec:** Průběžné konzultace, příprava na posterovou sekci.
+
+**leden:** Posterová sekce a odevzdání projektového návrhu.
+
+
+
