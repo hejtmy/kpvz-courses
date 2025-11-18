@@ -10,7 +10,7 @@ Na konci diplomního semináře (poslední hodina) pořádáme velkou posterovou
 
 Níže jsou instrukce a doporučení, jak takový poster připravit
 
-# NÁZEV PROJEKTU / PROJECT TITLE
+# NÁZEV PROJEKTU +
 
 ---
 
@@ -22,9 +22,21 @@ Níže jsou instrukce a doporučení, jak takový poster připravit
 - "Prostorová navigace ve virtuální realitě: Srovnání s reálným prostředím"
 - "Klimatická úzkost u mladých dospělých: Validizace českého dotazníku"
 
+**Řešitel/ka / Researcher:**
+Jméno Příjmení
+[email@example.cz](mailto:email@example.cz)
+
+**Školitel/ka / Supervisor:**
+Prof./Dr. Jméno Příjmení
+
+**Instituce:**
+Katedra psychologie a přírodních věd
+Fakulta humanitních studií
+Univerzita Karlova
+
 ---
 
-### 1. ÚVOD / INTRODUCTION
+### 1. ÚVOD
 
 **Co sem patří:**
 
@@ -39,12 +51,10 @@ Níže jsou instrukce a doporučení, jak takový poster připravit
 **Příklad 2 (Klimatická psychologie):**
 "Klimatická změna představuje jednu z největších výzev současnosti, přičemž její psychologické dopady na jedince zůstávají nedostatečně zmapované. Koncept klimatické úzkosti (climate anxiety) získává na významu, avšak v českém prostředí chybí validizované nástroje pro její měření. Mezinárodní studie naznačují, že mladí dospělí jsou klimatickou úzkostí zasaženi nejsilněji."
 
-**Příklad 3 (Prostorová navigace):**
-"Prostorová navigace je fundamentální kognitívní schopností, která je v současné době intenzivně studována prostřednictvím virtuálních prostředí. Stále však není jasné, do jaké míry se navigační strategie ve VR překrývají se strategiemi v reálném prostředí a jakou roli hraje senzomotorická zpětná vazba."
 
 ---
 
-### 2. VÝZKUMNÝ PROBLÉM / RESEARCH PROBLEM
+### 2. VÝZKUMNÝ PROBLÉM
 
 **Co sem patří:**
 
@@ -53,7 +63,7 @@ Níže jsou instrukce a doporučení, jak takový poster připravit
 - Hlavní výzkumná otázka
 - Specifické dílčí otázky nebo hypotézy (2-4)
 
-**Příklad 1 (VR a příroda) - Kvalitativní přístup:**
+**Příklad (VR a příroda) - Kvalitativní přístup:**
 
 **Výzkumný problém:**
 "Zatímco je prokázáno, že reálné lesní prostředí má restaurativní efekt, není jasné, jak uživatelé subjektivně vnímají a prožívají vysoce realistické virtuální lesní prostředí vytvořené pomocí LiDAR skenování."
@@ -67,39 +77,11 @@ Níže jsou instrukce a doporučení, jak takový poster připravit
 2. Jaké aspekty virtuálního lesa uživatelé považují za důležité pro pocit přítomnosti?
 3. Jak se liší prožitek VR lesa od vzpomínek na reálný les?
 
-**Příklad 2 (Klimatická úzkost) - Kvantitativní přístup:**
-
-**Výzkumný problém:**
-"Česká psychologie postrádá validní nástroj pro měření klimatické úzkosti, což limituje možnost studovat tento fenomén v lokálním kontextu a porovnávat jej s mezinárodními nálezy."
-
-**Hlavní cíl:**
-"Adaptovat a validizovat Climate Anxiety Scale (Clayton & Karazsia, 2020) pro české prostředí."
-
-**Hypotézy:**
-H1: Česká verze dotazníku bude vykazovat dobrou vnitřní konzistenci (α > 0.80)
-H2: Ženy budou vykazovat vyšší míru klimatické úzkosti než muži
-H3: Klimatická úzkost bude pozitivně korelovat s environmentální angažovaností
-H4: Mladší respondenti (18-25 let) budou vykazovat vyšší klimatickou úzkost než starší (26-40 let)
-
-**Příklad 3 (Prostorová navigace) - Smíšený přístup:**
-
-**Výzkumný problém:**
-"Nejasný je vztah mezi navigačními strategiemi používanými ve virtuálním a reálném prostředí, což má důsledky pro design VR aplikací i pro interpretaci výzkumů prostorové kognice."
-
-**Hlavní cíl:**
-"Porovnat navigační strategie a výkon v identickém labyrintu v reálném prostředí a ve VR."
-
-**Výzkumné otázky:**
-
-1. Liší se navigační výkon (čas, chyby) mezi VR a reálným prostředím?
-2. Jaké navigační strategie (egoreference vs. aloreference) lidé preferují v obou podmínkách?
-3. Jak participanti subjektivně hodnotí rozdíly mezi oběma prostředími?
-
 ---
 
-### 3. METODOLOGIE / METHODOLOGY
+### 3. METODOLOGIE
 
-### 3.1 VÝZKUMNÁ STRATEGIE / RESEARCH STRATEGY
+### 3.1 VÝZKUMNÁ STRATEGIE
 
 **Co sem patří:**
 
@@ -108,18 +90,15 @@ H4: Mladší respondenti (18-25 let) budou vykazovat vyšší klimatickou úzkos
 - Design studie (experimentální, korelační, fenomenologický atd.)
 
 **Příklad 1:**
-"**Kvalitativní výzkum** s fenomenologickým přístupem
-Zaměřujeme se na subjektivní prožitek a významy, které účastníci přisuzují zkušenosti s VR lesním prostředím. Fenomenologický přístup umožňuje zachytit bohatost individuálního prožívání."
+"**Kvalitativní výzkum** 
+Zaměřujeme se na subjektivní prožitek a významy, které účastníci přisuzují zkušenosti s VR lesním prostředím. Fenomenologický přístup umožňuje zachytit bohatost individuálního prožívání.
+
 
 **Příklad 2:**
-"**Kvantitativní výzkum** - psychometrická studie
-Design zaměřený na validizaci měřícího nástroje s využitím konfirmační faktorové analýzy a testování konstruktové validity."
+"**Kvantitativní výzkum**
+Experimentální studie: Zaměřujeme se na měření a analýzu vlivu VR prostředí na emoční procesy. Použijeme standardizované testy a metody sběru dat, abychom zajistili objektivitu a replikovatelnost výsledků.
 
-**Příklad 3:**
-"**Smíšený výzkum** - konvergentní paralelní design
-Kombinace experimentálního designu (kvantitativní měření navigačního výkonu) s polostrukturovanými rozhovory (kvalitativní pohled na zkušenost). Oba přístupy probíhají současně a jejich výsledky budou integrovány."
-
-### 3.2 ÚČASTNÍCI VÝZKUMU / PARTICIPANTS
+### 3.2 ÚČASTNÍCI VÝZKUMU
 
 **Co sem patří:**
 
@@ -132,38 +111,17 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
 **Příklad 1 (Kvalitativní):Účastníci:** N = 15-20 dospělých (25-45 let)
 **Charakteristika:** Lidé s různou mírou zkušenosti s VR (od žádné po pravidelné uživatele)
 **Kritéria výběru:**
-
 - Inkluze: Věk 25-45 let, dobrý zdravotní stav, schopnost českého jazyka
 - Exkluze: Závažné oční vady nekorigované brýlemi, epilepsie, kinetóza
 **Rekrutace:** Kombinace - inzerce na univerzitě, sociální sítě, snowball sampling
-**Typ vzorku:** Účelový s maximální variabilitou (variety sampling)
+**Typ vzorku:** Příležitostný vzorek s cílem maximalizovat variabilitu zkušeností s VR
 
-**Příklad 2 (Kvantitativní):Účastníci:** N = 300 (plánovaný počet na základě power analýzy)
-**Charakteristika:** Mladí dospělí, studenti vysokých škol v ČR
-**Kritéria výběru:**
-
-- Inkluze: Věk 18-30 let, student VŠ v ČR, českomoravština jako první jazyk
-- Exkluze: Diagnostikovaná úzkostná porucha (může ovlivnit měření klimatické úzkosti)
-**Rekrutace:** Online dotazník distribuovaný přes mailing listy univerzit, sociální sítě studentských skupin
-**Typ vzorku:** Příležitostný vzorek (convenience sampling)
-
-**Příklad 3 (Smíšený - experimentální):Účastníci:** N = 40 (20 VR, 20 reálné prostředí)
-**Charakteristika:** Zdraví dospělí bez zkušenosti s navigačními experimenty
-**Design:** Mezi-subjektový (between-subjects) experiment
-**Kritéria výběru:**
-
-- Inkluze: Věk 20-35 let, normální nebo korigované vidění, bez neurologických onemocnění
-- Exkluze: Předchozí účast v navigačních studiích, profesionální orientační běžci, závažná kinetóza
-**Rekrutace:** Inzerce v laboratoři, databáze dobrovolníků, nástěnky na univerzitě
-**Typ vzorku:** Náhodné přiřazení k podmínkám (randomizace)
-**Sub-vzorek pro rozhovory:** N = 12 (6 z každé skupiny) - účelový výběr na základě extrémních hodnot navigačního výkonu
-
-### 3.3 NÁSTROJE SBĚRU DAT / DATA COLLECTION TOOLS
+### 3.3 NÁSTROJE SBĚRU DAT 
 
 **Co sem patří:**
 
 - Konkrétní techniky a nástroje
-- Autor nástroje, rok, počet položek
+- Autor nástroje, rok
 - Krátký popis každého nástroje
 - Způsob administrace
 - Časový průběh sběru
@@ -173,7 +131,7 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
 **Polostrukturovaný individuální rozhovor**
 
 - Trvání: 45-60 minut
-- Místo: CyberspaceLab FHS UK
+- Místo: FHS UK, klidná místnost
 - Tematické oblasti:
     - První dojem z VR lesa (otázka: "Popište mi, co jste prožívali, když jste poprvé vstoupili do virtuálního lesa.")
     - Emocionální reakce (otázka: "Jaké emoce ve vás prostředí vyvolávalo?")
@@ -195,7 +153,7 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
 4. Polostrukturovaný rozhovor (45-60 min) - audio záznam
 5. Demografický dotazník (5 min)
 
-**Příklad 2 (Kvantitativní - psychometrie):**
+**Příklad 2 (Kvantitativní):**
 
 **Climate Anxiety Scale (CAS; Clayton & Karazsia, 2020)**
 
@@ -224,17 +182,15 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
 
 **Administrace:**
 
-- Online platforma Qualtrics
+- Online platforma (Google Forms)
 - Trvání: 15-20 minut
 - Sběr dat: březen-duben 2025
 
-**Příklad 3 (Smíšený - experiment):**
-
-**Kvantitativní složka:**
+**Příklad 3  (Experiment):**
 
 **Navigační úkol**
 
-- Labyrint 8×8 metrů (reálný) / identická VR replikace
+- Labyrint 8×8 metrů (reálný)
 - Cíl: Nalézt 4 cílové lokace v co nejkratším čase
 - Měřené proměnné:
     - Celkový čas (sekundy)
@@ -259,17 +215,6 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
 - Tracking: Vicon motion capture systém
 - Reálné prostředí: Značené trasy, GoPro kamera
 
-**Kvalitativní složka:**
-
-**Krátký polostrukturovaný rozhovor (15-20 min)**
-
-- Pouze s 12 participanty (extrémní výkony)
-- Otázky:
-    - "Jak jste přistupovali k hledání cest v labyrintu?"
-    - "Co vám pomáhalo/komplikovalo orientaci?"
-    - "Všiml/a jste si něčeho zvláštního ohledně prostředí?"
-    - (Pro VR skupinu): "Jak jste vnímali realističnost prostředí?"
-
 **Průběh experimentu:**
 
 1. Příchod a informovaný souhlas (10 min)
@@ -277,9 +222,8 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
 3. Instrukce k úkolu (5 min)
 4. Navigační úkol v přiděleném prostředí (15-20 min)
 5. Post-test: SSQ-VR skupina, test strategie (10 min)
-6. Rozhovor - pouze subset účastníků (15 min)
 
-### 3.4 ANALYTICKÉ POSTUPY / ANALYTICAL PROCEDURES
+### 3.4 ANALYTICKÉ POSTUPY
 
 **Co sem patří:**
 
@@ -315,7 +259,7 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
 
 **Software:** Atlas.ti 24
 
-**Příklad 2 (Kvantitativní - psychometrie):**
+**Příklad 2 (Kvantitativní):**
 
 **Příprava dat:**
 
@@ -326,29 +270,19 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
 
 **Analytické kroky:**
 
-**1. Deskriptivní statistika**
+**Deskriptivní statistika**
 
 - Průměry, směrodatné odchylky pro všechny položky
 - Distribuce odpovědí
 
-**2. Reliabilita**
+**Reliabilita**
 
 - Cronbachova alpha pro celou škálu i subškály (očekáváno α > 0.80)
 - Item-total korelace (očekáváno r > 0.30)
 - Split-half reliabilita
 
-**3. Konfirmační faktorová analýza (CFA)**
 
-- Testování dvou-faktorového modelu z originální studie
-- Fit indexy: CFI > 0.95, TLI > 0.95, RMSEA < 0.06, SRMR < 0.08
-- Modifikace modelu na základě modification indices (pokud nutné)
-
-**4. Konstruktová validita**
-
-- Konvergentní: Korelace CAS s Environmental Engagement (očekáváno r = 0.40-0.60)
-- Diskriminační: Korelace CAS s GAD-7 (očekáváno r = 0.30-0.50, nikoli > 0.70)
-
-**5. Testování hypotéz**
+**Testování hypotéz**
 
 - H2: Independent samples t-test (CAS skóre: ženy vs. muži)
 - H4: Independent samples t-test (CAS skóre: 18-25 vs. 26-40 let)
@@ -356,18 +290,13 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
 
 **Software:**
 
-- SPSS 29 pro deskriptivní statistiku a reliabilitu
-- Mplus 8.10 pro CFA
-- R (lavaan package) jako alternativa
+- JASP pro deskriptivní statistiku a reliabilitu
 
-**Příklad 3 (Smíšený):**
-
-**Kvantitativní analýza:**
+**Příklad 3 (Experiment):**
 
 **Příprava:**
 
 - Kontrola předpokladů pro parametrické testy
-- Power analýza post-hoc
 
 **Hlavní analýzy:**
 
@@ -376,42 +305,17 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
     - IV: Typ prostředí (VR vs. reálné)
     - Kovariate: SBSOD skóre, věk, pohlaví
     - Post-hoc: Bonferroni korekce
-    - Efekt velikosti: Partial eta-squared
+    - Velikost efektu : Partial eta-squared
 2. **Chí-kvadrát test**
     - Rozdíly v preferenci navigační strategie mezi skupinami
 3. **Kontrola vedlejších efektů VR**
     - Párový t-test pro SSQ (před vs. po)
 
-**Software:** SPSS 29, JASP
-
-**Kvalitativní analýza:**
-
-**Příprava:**
-
-- Transkripce 12 rozhovorů
-- Import do NVivo
-
-**Postup:**
-
-- **Tematická analýza** (Braun & Clarke, 2006)
-    1. Familiarizace s daty
-    2. Generování iniciálních kódů
-    3. Hledání témat
-    4. Revize témat
-    5. Definování a pojmenování témat
-    6. Produkce reportu
-
-**Fokus:** Subjektivní strategie, rozdíly v prožívání prostředí
-
-**Integrace kvantitativních a kvalitativních nálezů:**
-
-- Joint display table: Propojení navigačního výkonu s kvalitativními tématy
-- Explanační funkce: Vysvětlení neočekávaných kvantitativních nálezů pomocí kvalitativních dat
-- Metainference: Syntéza obou typů nálezů v diskusi
+**Software:** JASP
 
 ---
 
-### 4. OČEKÁVANÉ PŘÍNOSY / EXPECTED CONTRIBUTIONS
+### 4. OČEKÁVANÉ PŘÍNOSY
 
 **Co sem patří:**
 
@@ -420,7 +324,7 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
 - Metodologický přínos (pokud relevantní)
 - Společenský přínos (pokud relevantní)
 
-**Příklad 1 (VR a příroda):**
+**Příklad (VR a příroda):**
 
 **Teoretický přínos:**
 
@@ -440,48 +344,9 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
 - Doplněk k psychoterapii úzkostných poruch
 - Nástroj pro environmentální vzdělávání
 
-**Příklad 2 (Klimatická úzkost):**
-
-**Teoretický přínos:**
-
-- První validizovaný nástroj pro měření klimatické úzkosti v ČR
-- Mapování prevalence klimatické úzkosti v české populaci
-- Testování kulturních rozdílů v prožívání klimatické změny
-
-**Praktický přínos:**
-
-- Umožnění dalšího výzkumu klimatické psychologie v ČR
-- Identifikace rizikových skupin pro cílené intervence
-- Podklad pro osvětové kampaně
-
-**Společenský přínos:**
-
-- Destigmatizace klimatické úzkosti jako legitimní reakce
-- Evidence pro tvůrce politik ohledně psychologických dopadů klimatické krize
-- Podpora pro školní psychology a poradce
-
-**Příklad 3 (Prostorová navigace):**
-
-**Teoretický přínos:**
-
-- Vyjasnění vztahu mezi navigací ve VR a reálném prostředí
-- Příspěvek k debatě o ekologické validitě VR výzkumu
-- Identifikace faktorů ovlivňujících transfer navigačních dovedností
-
-**Metodologický přínos:**
-
-- Demonstrace užitečnosti smíšeného designu pro navigační výzkum
-- Protokol pro budoucí srovnávací VR-reálné prostředí studie
-
-**Praktický přínos:**
-
-- Doporučení pro design VR navigačních tréninků
-- Implikace pro rehabilitaci navigačních deficitů
-- Guidelines pro VR simulátory v profesionálním tréninku (piloti, chirurgové)
-
 ---
 
-### 5. LIMITY A RIZIKA / LIMITATIONS AND RISKS
+### 5. LIMITY A RIZIKA
 
 **Co sem patří:**
 
@@ -491,105 +356,69 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
 - Etická rizika
 - Způsoby, jak limity ošetřujete/zmírníte
 
-**Příklad 1 (Kvalitativní):**
+**Příklad:**
 
 **Limity výběru vzorku:**
 
 - **Riziko:** Účelový vzorek nemusí zachytit plnou variabilitu prožívání
-- **Ošetření:** Strategie maximální variability, aktivní vyhledávání různých profilů uživatelů
+- **Navrhované řešení:** Strategie maximální variability, aktivní vyhledávání různých profilů uživatelů
 
 **Subjektivita interpretace:**
 
 - **Riziko:** Interpretace ovlivněna předporozuměním výzkumníka
-- **Ošetření:** Reflexivní deník, peer debriefing, member checking
+- **Navrhované řešení:** Reflexivní deník, peer debriefing, member checking
 
 **Novost zkušenosti:**
 
 - **Riziko:** Prožitek může být ovlivněn novou/neznalou technologií
-- **Ošetření:** Čas na familiarizaci s VR před vlastním výzkumem (5-10 min trénink)
+- **Navrhované řešení:** Čas na familiarizaci s VR před vlastním výzkumem (5-10 min trénink)
 
 **Umělé prostředí laboratoře:**
 
 - **Riziko:** Laboratoř neodpovídá přirozeným podmínkám kontaktu s přírodou
-- **Ošetření:** Upozornění na tento limit v interpretaci, návazný výzkum v terénu
+- **Navrhované řešení:** Upozornění na tento limit v interpretaci, návazný výzkum v terénu
 
 **Omezená přenositelnost:**
 
 - **Riziko:** Nálezy specifické pro použitou VR technologii a konkrétní les
-- **Ošetření:** Detailní popis technologie a prostředí, připravení pro replikace
-
-**Příklad 2 (Kvantitativní - psychometrie):**
-
-**Příležitostný vzorek:**
+- **Navrhované řešení:** Detailní popis technologie a prostředí, připravení pro replikace
 
 - **Riziko:** Převaha studentů humanitních oborů, omezená generalizovatelnost
-- **Ošetření:** Aktivní rekrutace z různých fakult, váhování dat podle populačních charakteristik
+- **Navrhované řešení:** Aktivní rekrutace z různých fakult, váhování dat podle populačních charakteristik
 
 **Self-report bias:**
 
 - **Riziko:** Sociální desirabilita, tendence odpovídat v souladu s očekáváním
-- **Ošetření:** Anonymita dotazníku, randomizace pořadí položek, kontrolní položky
+- **Navrhované řešení:** Anonymita dotazníku, randomizace pořadí položek, kontrolní položky
 
 **Kulturní adaptace nástroje:**
 
 - **Riziko:** Koncept klimatické úzkosti může být v ČR chápán jinak než v USA
-- **Ošetření:** Kvalitativní pilotáž s kognitivními rozhovory (N=10) před hlavním sběrem
-
-**Chybějící test-retest reliabilita:**
-
-- **Riziko:** Nelze posoudit stabilitu měření v čase
-- **Ošetření:** Plán návazné studie s druhým měřením po 2 týdnech (N=100)
-
-**Cross-sectional design:**
-
-- **Riziko:** Nelze určit kauzalitu vztahů
-- **Ošetření:** Opatrná formulace závěrů, absence kauzálních výroků
+- **Navrhované řešení:** Kvalitativní pilotáž s kognitivními rozhovory (N=10) před hlavním sběrem
 
 **Online sběr:**
 
 - **Riziko:** Nižší kontrola nad podmínkami vyplňování
-- **Ošetření:** Attention check položky, časové limity pro detekci neprůkazného vyplňování
-
-**Příklad 3 (Smíšený - experiment):**
+- **Navrhované řešení:** Attention check položky, časové limity pro detekci neprůkazného vyplňování
 
 **Mezi-subjektový design:**
 
 - **Riziko:** Individuální rozdíly mezi skupinami
-- **Ošetření:** Randomizace, kontrola pomocí SBSOD jako kovarianty, větší vzorek
+- **Navrhované řešení:** Randomizace, kontrola pomocí SBSOD jako kovarianty, větší vzorek
 
 **Jednorázové měření:**
 
 - **Riziko:** Efekt učení není zachycen, nelze sledovat vývoj dovedností
-- **Ošetření:** Disclosure tohoto limitu, plán longitudinální follow-up studie
-
-**Specifické prostředí:**
-
-- **Riziko:** Nálezy specifické pro jednoduchý labyrint, nižší ekologická validita
-- **Ošetření:** Replikace v komplexnějším prostředí v budoucnu, jasná specifikace omezení
-
-**VR kinetóza:**
-
-- **Riziko:** Část VR skupiny může ukončit předčasně kvůli nevolnosti
-- **Ošetření:** Screening pomocí dotazníku, možnost přerušit kdykoli, krátké expozice
+- **Navrhované řešení:** Disclosure tohoto limitu, plán longitudinální follow-up studie
 
 **Experimenter bias:**
 
 - **Riziko:** Neúmyslné ovlivnění účastníků instrukcemi
 - **Ošetření:** Standardizované instrukce (nahrané audio), experimenter blind k hypotézám
 
-**Malý vzorek pro kvalitativní část:**
-
-- **Riziko:** N=12 může být málo pro saturaci témat
-- **Ošetření:** Fokus na explanační funkci (vysvětlení kvantitativních nálezů), nikoli na vyčerpávající popis
-
-**Integrace nálezů:**
-
-- **Riziko:** Konfliktní nálezy mezi kvantitativní a kvalitativní částí
-- **Ošetření:** Prezentace jako součást nálezů, explorativní diskuse možných důvodů
-
 ---
 
-### 6. HARMONOGRAM / TIMELINE
+### 6. HARMONOGRAM
 
 **Co sem patří:**
 
@@ -600,7 +429,7 @@ Kombinace experimentálního designu (kvantitativní měření navigačního vý
 **Příklad:**
 
 `LEDEN 2025
-- Finalizace designu a ethický souhlas
+- Finalizace designu a etický souhlas
 - Pilotáž nástrojů (N=10)
 
 ÚNOR - BŘEZEN 2025
@@ -625,7 +454,7 @@ SRPEN 2025
 
 ---
 
-### 7. LITERATURA / KEY REFERENCES
+### 7. LITERATURA
 
 **Co sem patří:**
 
@@ -634,7 +463,7 @@ SRPEN 2025
 - Hlavní empirické studie, na které navazujete
 - Formát dle APA 7
 
-**Příklad 1:**
+**Příklad:**
 
 Clayton, S., & Karazsia, B. T. (2020). Development and validation of a measure of climate change anxiety. *Journal of Environmental Psychology, 69*, 101434.
 
@@ -642,26 +471,4 @@ Kaplan, S. (1995). The restorative benefits of nature: Toward an integrative fra
 
 Nukarinen, T., et al. (2022). Measures and modalities: Multimodal virtual natural environments for well-being. *Frontiers in Virtual Reality, 3*, 827629.
 
-**Příklad 2:**
-
-Bratman, G. N., Hamilton, J. P., & Daily, G. C. (2012). The impacts of nature experience on human cognitive function and mental health. *Annals of the New York Academy of Sciences, 1249*, 118-136.
-
-Chirico, A., & Gaggioli, A. (2019). When virtual feels real: Comparing emotional responses and presence in virtual and natural environments. *Computers in Human Behavior, 90*, 88-98.
-
-White, M. P., et al. (2019). Spending at least 120 minutes a week in nature is associated with good health and wellbeing. *Scientific Reports, 9*, 7730.
-
 ---
-
-### 8. KONTAKT / CONTACT
-
-**Řešitel/ka / Researcher:**
-Jméno Příjmení
-[email@example.cz](mailto:email@example.cz)
-
-**Školitel/ka / Supervisor:**
-Prof./Dr. Jméno Příjmení
-
-**Instituce:**
-Katedra psychologie a přírodních věd
-Fakulta humanitních studií
-Univerzita Karlova

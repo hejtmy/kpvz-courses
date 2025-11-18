@@ -13,6 +13,7 @@ hero:
 ---
 
 import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import CourseBanner from '../../components/CourseBanner.astro';
 
 ## Seznam kurzů
 
@@ -21,11 +22,11 @@ import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
     Trocha informací o kurzu Úvod do psychologie na SHV
     <LinkCard title="K materiálům" href="/introduction-to-psychology/" />
 	</Card>
-	<Card title="Vědecko výzkumná propedeutika" icon="document">
-    Informace a zdroje ke kurzu Vědecko výzkumná propedeutika na SHV
-    <CardGrid>
-      <LinkCard title="K materiálům" href="/research-methodology-bachelor/" />
-      <LinkCard title="Link na moodle" href="#" />
-    </CardGrid>
-	</Card>
+    <CourseBanner
+      title="Diplomní seminář bakalářský"
+      icon="document"
+      text="Informace a materiály k diplomnímu semináři"
+      materialsHref="/diploma-seminar-bachelor/"
+      moodleHref="https://moodle.fhs.cuni.cz/course/view.php?id=3525"
+    />
 </CardGrid>

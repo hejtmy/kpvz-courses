@@ -1,0 +1,20 @@
+---
+import {Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+export interface Props {
+  title: string;
+  icon: string;
+  text: string;
+  materialsHref: string;
+  moodleHref: string;
+}
+
+const props = Astro.props;
+---
+<Card title={props.title} icon={props.icon}>
+    {props.text}
+    <CardGrid>
+      <LinkCard title="K materiálům" href={props.materialsHref} />
+      {props.moodleHref && <LinkCard title="Link na moodle" href={props.moodleHref} />}
+    </CardGrid>
+</Card>
