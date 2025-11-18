@@ -7,8 +7,21 @@ Každý student si připraví jednoduchý poster formátu A1, ve kterém nastín
 
 Na konci diplomního semináře (poslední hodina) pořádáme velkou posterovou sekci (s více než 30 studenty), kde studenti prezentují svůj výzkum a to jak svým kolegům, tak i nám, členům katedry. Shromažďují zpětnou vazbu a trénují své prezentační dovednosti. A doufáme, že tato akce poslouží i jako příjemné seznámení mezi katedrou a studenty 😄
 
-
 Níže jsou instrukce a doporučení, jak takový poster připravit
+
+# Ukázky
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+
+![Příklad posteru 1](../../../assets/courses/diploma-seminar-bachelor/posters/example1.jpeg)
+
+![Příklad posteru 2](../../../assets/courses/diploma-seminar-bachelor/posters/example2.jpeg)
+
+![Příklad posteru 3](../../../assets/courses/diploma-seminar-bachelor/posters/example3.jpeg)
+
+</div>
+
+
 
 # NÁZEV PROJEKTU +
 
