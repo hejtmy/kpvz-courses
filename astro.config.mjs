@@ -6,7 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'KPVZ FHS Kurzy',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
@@ -14,8 +14,8 @@ export default defineConfig({
           autogenerate: { directory: 'introduction-to-psychology' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Bakalářský diplomní seminář',
+					autogenerate: { directory: 'diploma-seminar-bachelor' },
 				},
 			],
 		}),
