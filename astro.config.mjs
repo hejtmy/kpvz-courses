@@ -7,12 +7,8 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'KPVZ FHS Kurzy',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			social: [{ icon: 'seti:html', label: 'web', href: 'https://kpvz.cyberspacelab.cz' }],
 			sidebar: [
-				{
-					label: 'Úvod do psychologie',
-          autogenerate: { directory: 'introduction-to-psychology' },
-				},
 				{
 					label: 'Bakalářský diplomní seminář',
 					autogenerate: { directory: 'diploma-seminar-bachelor' },

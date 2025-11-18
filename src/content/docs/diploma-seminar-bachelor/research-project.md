@@ -1,5 +1,5 @@
 ---
-title: Výzkumný projekt pro bakalářský diplomní seminář
+title: Výzkumný projekt
 description: Pokyny a materiály pro vypracování výzkumného projektu v rámci bakalářského diplomního semináře
 ---
 

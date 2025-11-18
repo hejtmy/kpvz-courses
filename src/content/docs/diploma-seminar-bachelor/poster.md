@@ -21,8 +21,6 @@ Níže jsou instrukce a doporučení, jak takový poster připravit
 
 </div>
 
-
-
 # NÁZEV PROJEKTU +
 
 ---

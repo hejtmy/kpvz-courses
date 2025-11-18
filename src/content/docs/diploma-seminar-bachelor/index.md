@@ -1,5 +1,5 @@
 ---
-title: Bakalářský diplomní seminář
+title: Základní informace
 description: Popis požadavků a materiály k bakalářskému diplomnímu semináři
 ---
 
