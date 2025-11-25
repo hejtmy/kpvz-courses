@@ -202,23 +202,24 @@ experiment_jmeno-prijmeni.zip
 - Všechny potřebné soubory musí být v ZIP
 
 ### Formát odevzdání
+Emailem na lukas.hejtmanek@fhs.cuni.cz
 
 📧 **Email předmětu:** `[YMPC002] Atestace - Jmeno Prijmeni`
 
 **Přílohy:**
 1. `experiment_Jmeno-Prijmeni.zip` (funkční PsychoPy experiment)
 
-**Termín:** Konec zimního semestru
+**Termín:** Konec zimního zkouškového musí být experiment schválený. Na schválení mi dejte alespoň týden. Pokud budou v experimentu chyby, vrátím vám jej k přepracování, avšak je nutné vše stihnout  do termínu. Doporučuji tak poslat buď ke konci zkoukového perfektní verzi, nebo pokud si nejste jistí, tak zašlete experiment během ledna. 
 
 ## Hodnocení
 
 | Kritérium | Body | Popis |
 |-----------|------|-------|
 | **Funkčnost experimentu** | 30 | Experiment se spustí a funguje podle specifikace |
-| **Čistota a srozumitelnost** | 20 | Instrukce jsou jasné a srozumitelné |
+| **Čistota a srozumitelnost** | 20 | Instrukce jsou jasné a srozumitelné, vše hezky formátované, komponenty srozumitelně pojmenované a věc dobře organizovaná |
 | **CELKEM** | 50 | |
 
-**Minimum pro zápočet:** 35 bodů
+**Minimum pro zápočet:** 40 bodů
 
 ## Časté otázky (FAQ)
 
