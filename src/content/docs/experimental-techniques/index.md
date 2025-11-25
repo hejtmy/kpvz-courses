@@ -5,6 +5,10 @@ description: Základní informace o kurzu Techniky experimentální psychologie
 
 Kurz Techniky experimentální psychologie je zaměřen na praktické dovednosti v oblasti tvorby psychologických experimentů pomocí moderních nástrojů.
 
+:::note[Prezentace Psychopy]
+[Psychopy presentace](/courses-files/experimental-techniques/psychopy-presentace.pdf)
+:::
+
 ## Cíle kurzu
 
 - Osvojit si základy práce s PsychoPy pro tvorbu experimentů
