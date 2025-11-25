@@ -19,6 +19,10 @@ export default defineConfig({
           label: 'Bakalářský diplomní seminář',
           autogenerate: { directory: 'diploma-seminar-bachelor' },
         },
+        {
+          label: 'Techniky experimentální psychologie - PsychoPy',
+          autogenerate: { directory: 'experimental-techniques' },
+        },
       ],
     }),
   ],
