@@ -30,7 +30,6 @@ Níže jsou instrukce a doporučení, jak takový poster připravit
 **Příklady:**
 
 - "Vliv virtuálních lesních prostředí na emocionální pohodu uživatelů"
-- "Prostorová navigace ve virtuální realitě: Srovnání s reálným prostředím"
 - "Klimatická úzkost u mladých dospělých: Validizace českého dotazníku"
 
 **Řešitel/ka / Researcher:**
@@ -39,11 +38,6 @@ Jméno Příjmení
 
 **Školitel/ka / Supervisor:**
 Prof./Dr. Jméno Příjmení
-
-**Instituce:**
-Katedra psychologie a přírodních věd
-Fakulta humanitních studií
-Univerzita Karlova
 
 ---
 
@@ -76,7 +70,7 @@ Univerzita Karlova
 **Příklad (VR a příroda) - Kvalitativní přístup:**
 
 **Výzkumný problém:**
-"Zatímco je prokázáno, že reálné lesní prostředí má restaurativní efekt, není jasné, jak uživatelé subjektivně vnímají a prožívají vysoce realistické virtuální lesní prostředí vytvořené pomocí LiDAR skenování."
+"Zatímco je prokázáno, že reálné lesní prostředí má restorativní efekt, není jasné, jak uživatelé subjektivně vnímají a prožívají vysoce realistické virtuální lesní prostředí."
 
 **Hlavní výzkumná otázka:**
 "Jak lidé subjektivně prožívají ponořovací zkušenost ve vysoce realistickém virtuálním lesním prostředí?"
@@ -85,7 +79,7 @@ Univerzita Karlova
 
 1. Jaké emocionální reakce vyvolává VR lesní prostředí?
 2. Jaké aspekty virtuálního lesa uživatelé považují za důležité pro pocit přítomnosti?
-3. Jak se liší prožitek VR lesa od vzpomínek na reálný les?
+3. Jak se liší prožitek VR lesa od prožitku v reálném lese?
 
 ---
 
@@ -106,7 +100,7 @@ Zaměřujeme se na subjektivní prožitek a významy, které účastníci přisu
 
 **Příklad 2:**
 "**Kvantitativní výzkum**
-Experimentální studie: Zaměřujeme se na měření a analýzu vlivu VR prostředí na emoční procesy. Použijeme standardizované testy a metody sběru dat, abychom zajistili objektivitu a replikovatelnost výsledků.
+Experimentální studie: Zaměřujeme se na měření a analýzu vlivu VR prostředí na emoční procesy. Použijeme standardizované testy, experimentální variaci podmínek a strukturované metody sběru dat, abychom zajistili objektivitu a replikovatelnost výsledků.
 
 ### 3.2 ÚČASTNÍCI VÝZKUMU
 
@@ -119,21 +113,24 @@ Experimentální studie: Zaměřujeme se na měření a analýzu vlivu VR prost�
 - Typ vzorku (náhodný, účelový, snowball atd.)
 
 **Příklad 1 (Kvalitativní):Účastníci:** N = 15-20 dospělých (25-45 let)
+
 **Charakteristika:** Lidé s různou mírou zkušenosti s VR (od žádné po pravidelné uživatele)
+
 **Kritéria výběru:**
 - Inkluze: Věk 25-45 let, dobrý zdravotní stav, schopnost českého jazyka
 - Exkluze: Závažné oční vady nekorigované brýlemi, epilepsie, kinetóza
-**Rekrutace:** Kombinace - inzerce na univerzitě, sociální sítě, snowball sampling
+
+**Rekrutace:** Kombinace - inzerce na univerzitě, sociální sítě, snowball sampling. Odměna 200 Kč za účast.
+
 **Typ vzorku:** Příležitostný vzorek s cílem maximalizovat variabilitu zkušeností s VR
 
 ### 3.3 NÁSTROJE SBĚRU DAT 
 
 **Co sem patří:**
 
-- Konkrétní techniky a nástroje
-- Autor nástroje, rok
+- Konkrétní techniky a nástroje + Autor nástroje/dotazníku
 - Krátký popis každého nástroje
-- Způsob administrace
+- Způsob administrace (online/osobně)
 - Časový průběh sběru
 
 **Příklad 1 (Kvalitativní):**
