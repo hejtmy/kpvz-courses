@@ -23,6 +23,10 @@ export default defineConfig({
           label: 'Techniky experimentální psychologie - PsychoPy',
           autogenerate: { directory: 'experimental-techniques' },
         },
+        {
+          label: 'Specifické přístupy zpracování dat v psychologii',
+          autogenerate: { directory: 'specific-data-processing-approaches' },
+        },
       ],
     }),
   ],

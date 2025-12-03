@@ -1,0 +1,13 @@
+{
+  "project": {
+    "name": "kpvz-courses",
+    "description": "Educational course materials for FHS built with Astro Starlight.",
+    "framework": "Astro",
+    "theme": "Starlight",
+    "paths": {
+      "content": "src/content/docs",
+      "assets": "src/assets",
+      "public": "public"
+    }
+  }
+}
