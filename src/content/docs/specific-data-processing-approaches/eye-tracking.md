@@ -1,6 +1,6 @@
 ---
 title: Eyetracking v psychologickém výzkumu
-description: Základní informace o využití eyetrackingu v psychologickém vý
+description: Základní informace o využití eyetrackingu v psychologickém výzkumu
 ---
 
 Eye-tracking měří pohyb a pozici očí v reálném čase. Vychází z předpokladu, že kam se díváme, to kognitivně zpracováváme — pohyby očí jsou z velké části automatické a neovlivněné vědomou kontrolou.
