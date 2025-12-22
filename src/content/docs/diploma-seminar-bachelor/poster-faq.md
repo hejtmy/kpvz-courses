@@ -5,11 +5,11 @@ description: Nejčastější dotazy k posterům
 
 ## V jakém formátu se předávají postery?
 
-Postery se předávají v formátu A1.
+Postery se předávají v formátu A1 v PDF na následujícím odkazu: https://airtable.com/appDaDOZePbhhfVdo/pag5yeaqdQs3E5Qae/form
 
 ## Musím jej mít vytištěný?
 
-Pokud chcete, abychom vám poster vytiskli na naše náklady my, odevzdejte jej včas dle instrukcí na Moodle. V opačném případě jej na poster session musíte donést vytištěný sami.
+Ano, postery budou fyzicky viset na stěnách :) Pokud chcete, abychom vám poster vytiskli na naše náklady my, odevzdejte PDF včas dle instrukcí na odkazu výše. V opačném případě jej na poster session musíte donést vytištěný sami. Zdali zvolíte barevný či černobílý je na vás, musí však být čitelný :)
 
 ## V jakém jazyce má poster být?
 
