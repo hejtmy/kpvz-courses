@@ -12,7 +12,6 @@ description: Požadavky na atestaci kurzu Specifické přístupy zpracování da
 Odevzdáváte dva PDF soubory: 
 
 1. hlavní dokument 5-6 stran podle struktury níže, 
-2. kontrolní formulář max 1 strana s odpověďmi na otázky o použití AI a znalostech literatury.
 
 - **Rozsah:** 5-6 stran (bez titulní strany a literatury)
 - **Termín odevzdání:** do konce ledna
