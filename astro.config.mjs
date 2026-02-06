@@ -27,6 +27,10 @@ export default defineConfig({
           label: 'Specifické přístupy zpracování dat v psychologii',
           autogenerate: { directory: 'specific-data-processing-approaches' },
         },
+        {
+          label: 'Úvod do environmentální psychologie',
+          autogenerate: { directory: 'environmental-psychology' },
+        },
       ],
     }),
   ],
