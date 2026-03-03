@@ -1,12 +1,15 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import remarkDirective from 'remark-directive';
+import remarkEmbeds from './src/plugins/remark-canva-embed.mjs';
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [
     starlight({
       title: 'KPVZ FHS Kurzy',
+      customCss: ['./src/styles/custom.css'],
       locales: {
         root: {
           label: 'Česky',
@@ -34,4 +37,7 @@ export default defineConfig({
       ],
     }),
   ],
+  markdown: {
+    remarkPlugins: [remarkDirective, remarkEmbeds],
+  },
 });

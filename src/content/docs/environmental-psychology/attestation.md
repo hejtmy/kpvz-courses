@@ -1,6 +1,8 @@
 ---
 title: Požadavky k atestaci
 description: Požadavky na atestaci kurzu Úvod do environmentální psychologie
+sidebar:
+  order: 2
 ---
 
 Vyberete si **konkrétní místo** (venkovní nebo vnitřní) a vypracujete **odborně vedenou analýzu** jeho psychologických účinků a kvalit v perspektivě environmentální psychologie. Vaše závěry mají být **opřené o teorie a empirické studie**, ne pouze o subjektivní dojmy.
