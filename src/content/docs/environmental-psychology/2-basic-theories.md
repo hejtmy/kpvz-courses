@@ -1,7 +1,7 @@
 ---
 title: Lekce 2 - Základní teorie environmentální psychologie
 sidebar:
-  order: 6
+  order: 4
 ---
 
 ## Presentace

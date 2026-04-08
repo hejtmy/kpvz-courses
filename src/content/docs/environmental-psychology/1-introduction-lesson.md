@@ -1,7 +1,7 @@
 ---
 title: Lekce 1 - Představení kurzu environmentální psychologie
 sidebar:
-  order: 5
+  order: 2
 ---
 
 ## Presentace

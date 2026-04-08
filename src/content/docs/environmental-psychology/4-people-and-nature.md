@@ -1,7 +1,7 @@
 ---
 title: Lekce 4 - Člověk a příroda
 sidebar:
-  order: 6
+  order: 8
 ---
 
 ## Presentace
