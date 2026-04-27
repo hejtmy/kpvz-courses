@@ -1,7 +1,7 @@
 ---
 title: Lekce 1 - Představení kurzu environmentální psychologie
 sidebar:
-  order: 2
+  order: 3
 ---
 
 ## Presentace
@@ -11,7 +11,7 @@ sidebar:
 
 ## Doplňkové materiály a videa
 
-### Californie a nerovnost zeleného prostoru 
+### Californie a nerovnost zeleného prostoru
 
 :::youtube{id="https://www.youtube.com/watch?v=BAWWXubntI4"}
 :::
