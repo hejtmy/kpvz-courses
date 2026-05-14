@@ -1,7 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "mcp__notion__notion-fetch"
+      "mcp__notion__notion-fetch",
+      "WebFetch(domain:api.anthropic.com)",
+      "PowerShell($f = 'C:\\\\Users\\\\hejtm\\\\.claude\\\\projects\\\\f--Projects-FHS-kpvz-courses\\\\63322ed7-b4b3-4b30-9b5c-5d6f64ffdcd2\\\\tool-results\\\\webfetch-1778713764875-r2l0by.bin'; Get-Item $f | Format-List Length, FullName; $bytes = [System.IO.File]::ReadAllBytes\\($f\\)[0..15]; \\($bytes | ForEach-Object { '{0:X2}' -f $_ }\\) -join ' ')",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"homepage: %{http_code}\\\\n\" http://localhost:4321/)",
+      "Bash(curl -s -o /dev/null -w \"course page: %{http_code}\\\\n\" http://localhost:4321/environmental-psychology/attestation/)",
+      "Bash(curl -s http://localhost:4321/)",
+      "Bash(curl -s http://localhost:4321/environmental-psychology/attestation/ -o /tmp/attestation.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -s \"http://localhost:4321/environmental-psychology/attestation/\" -o /tmp/att.html)",
+      "PowerShell($html = Invoke-WebRequest -UseBasicParsing 'http://localhost:4321/environmental-psychology/attestation/'; $html.Content | Out-File -Encoding utf8 'C:\\\\Users\\\\hejtm\\\\AppData\\\\Local\\\\Temp\\\\att.html'; \\(Get-Item 'C:\\\\Users\\\\hejtm\\\\AppData\\\\Local\\\\Temp\\\\att.html'\\).Length)"
     ],
     "deny": [],
     "ask": []

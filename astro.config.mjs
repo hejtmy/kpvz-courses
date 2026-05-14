@@ -10,6 +10,12 @@ export default defineConfig({
     starlight({
       title: 'KPVZ FHS Kurzy',
       customCss: ['./src/styles/custom.css'],
+      logo: {
+        light: './src/assets/brand/logo-icon-black.svg',
+        dark: './src/assets/brand/logo-icon-paper.svg',
+        replacesTitle: false,
+      },
+      favicon: '/favicon.svg',
       locales: {
         root: {
           label: 'Česky',

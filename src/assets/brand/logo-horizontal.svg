@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" fill="none">
+  
+
+  
+  <g stroke="currentColor" stroke-width="5" stroke-linejoin="miter" stroke-linecap="square">
+    <path d="M 25 190 L 25 60 Q 25 22 65 22 L 135 22 Q 175 22 175 60 L 175 190 Z"></path>
+    <line x1="58" y1="36" x2="58" y2="190"></line>
+    <line x1="88" y1="25" x2="88" y2="190"></line>
+    <line x1="112" y1="22" x2="112" y2="190"></line>
+    <line x1="142" y1="25" x2="142" y2="190"></line>
+    <line x1="27" y1="70" x2="173" y2="70"></line>
+    <line x1="25" y1="116" x2="175" y2="116"></line>
+    <line x1="25" y1="158" x2="175" y2="158"></line>
+  </g>
+  <g fill="currentColor">
+    <path d="M 62 78&#xA;             L 80 78&#xA;             L 80 130&#xA;             Q 80 148 96 150&#xA;             L 96 78&#xA;             L 104 78&#xA;             L 104 150&#xA;             Q 120 148 120 130&#xA;             L 120 78&#xA;             L 138 78&#xA;             L 138 134&#xA;             Q 138 162 104 167&#xA;             L 104 186&#xA;             L 96 186&#xA;             L 96 167&#xA;             Q 62 162 62 134&#xA;             Z"></path>
+    <rect x="97" y="40" width="6" height="42"></rect>
+  </g>
+
+  
+  <g fill="currentColor" font-family="Archivo Black, Helvetica Neue, Arial, sans-serif">
+    <text x="210" y="90" font-size="62" letter-spacing="-2">FHS</text>
+    <text x="210" y="138" font-size="28" letter-spacing="0" font-family="Archivo, Helvetica Neue, Arial, sans-serif" font-weight="800">PSYCHOLOGIE</text>
+    <text x="210" y="172" font-size="13" letter-spacing="3" font-family="JetBrains Mono, monospace" font-weight="500">FAKULTA HUMANITNÍCH STUDIÍ · UK</text>
+  </g>
+
+  
+  <line x1="195" y1="22" x2="195" y2="178" stroke="currentColor" stroke-width="2"></line>
+</svg>

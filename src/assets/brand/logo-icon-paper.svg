@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" fill="none" stroke="#0A0A0A" stroke-width="6" stroke-linejoin="miter" stroke-linecap="square">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linejoin="miter" stroke-linecap="square">
   
   <g>
     <path d="M 20 270 L 20 80 Q 20 25 75 25 L 165 25 Q 220 25 220 80 L 220 270 Z"></path>
@@ -11,7 +11,7 @@
     <line x1="20" y1="225" x2="220" y2="225"></line>
   </g>
 
-  <g fill="#0A0A0A" stroke="none">
+  <g fill="#FFFFFF" stroke="none">
     <path d="M 60 105&#xA;             L 86 105&#xA;             L 86 178&#xA;             Q 86 196 108 198&#xA;             L 108 105&#xA;             L 132 105&#xA;             L 132 198&#xA;             Q 154 196 154 178&#xA;             L 154 105&#xA;             L 180 105&#xA;             L 180 186&#xA;             Q 180 222 132 228&#xA;             L 132 250&#xA;             L 108 250&#xA;             L 108 228&#xA;             Q 60 222 60 186&#xA;             Z"></path>
     <rect x="113" y="55" width="14" height="55"></rect>
   </g>

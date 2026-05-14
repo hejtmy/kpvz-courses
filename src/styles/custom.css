@@ -1,35 +1,651 @@
-.canva-embed {
+/* ============================================================
+   KPVZ FHS Kurzy — Warhol-pop academic theme
+   Based on the FHS Psychology Design System
+   Department of Psychology, Faculty of Humanities, Charles University
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700;800&family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root {
+  /* ───── FHS palette ───── */
+  --fhs-black:        #0A0A0A;
+  --fhs-paper:        #FFFFFF;
+  --fhs-magenta:      #FF5CBB;
+  --fhs-yellow:       #FFD400;
+  --fhs-cobalt:       #3B56AD;
+  --fhs-vermilion:    #FF4A1C;
+  --fhs-mint:         #00C896;
+  --fhs-violet:       #6B2FD9;
+
+  --fhs-ink-90:       #141414;
+  --fhs-ink-70:       #353535;
+  --fhs-ink-50:       #6A6A6A;
+  --fhs-ink-30:       #A4A4A4;
+  --fhs-ink-15:       #D4D4D4;
+  --fhs-ink-05:       #EDEDED;
+
+  /* Type families */
+  --font-display:     'Archivo Black', 'Helvetica Neue', Arial, sans-serif;
+  --font-headline:    'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --font-body:        'Instrument Sans', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono:        'JetBrains Mono', ui-monospace, Menlo, monospace;
+
+  /* Hard offset shadow — the signature */
+  --shadow-pop:       4px 4px 0 0 var(--fhs-black);
+  --shadow-pop-lg:    8px 8px 0 0 var(--fhs-black);
+  --shadow-pop-magenta: 4px 4px 0 0 var(--fhs-magenta);
+
+  /* ───── Override Starlight tokens — light mode ─────
+     Note: Starlight's --sl-color-white = high-contrast TEXT color
+     (the opposite-of-canvas tone), NOT literally white.
+     --sl-color-black = canvas. gray-1..6 is a perceptual ladder
+     from text-contrast → subtle background tint.                  */
+  --sl-font:                  var(--font-body);
+  --sl-font-system-mono:      var(--font-mono);
+
+  --sl-color-white:           var(--fhs-black);     /* high-contrast text */
+  --sl-color-gray-1:          var(--fhs-ink-90);    /* near-text */
+  --sl-color-gray-2:          var(--fhs-ink-70);    /* body / sidebar text */
+  --sl-color-gray-3:          var(--fhs-ink-50);    /* muted text */
+  --sl-color-gray-4:          var(--fhs-ink-30);    /* disabled / placeholder */
+  --sl-color-gray-5:          var(--fhs-ink-15);    /* borders / dividers */
+  --sl-color-gray-6:          var(--fhs-ink-05);    /* subtle bg tint */
+  --sl-color-gray-7:          var(--fhs-ink-05);
+  --sl-color-black:           var(--fhs-paper);     /* canvas */
+
+  --sl-color-accent-low:      #FFE2F2;
+  --sl-color-accent:          var(--fhs-magenta);
+  --sl-color-accent-high:     #B8327F;
+
+  --sl-color-text:            var(--fhs-black);
+  --sl-color-text-accent:     var(--fhs-magenta);
+  --sl-color-text-invert:     var(--fhs-paper);
+  --sl-color-bg:              var(--fhs-paper);
+  --sl-color-bg-nav:          var(--fhs-paper);
+  --sl-color-bg-sidebar:      var(--fhs-paper);
+  --sl-color-bg-inline-code:  var(--fhs-ink-05);
+  --sl-color-bg-accent:       var(--fhs-magenta);
+  --sl-color-hairline-light:  var(--fhs-ink-15);
+  --sl-color-hairline:        var(--fhs-black);
+  --sl-color-hairline-shade:  var(--fhs-black);
+
+  /* Sharp corners across the board */
+  --sl-shadow-sm: 2px 2px 0 0 var(--fhs-black);
+  --sl-shadow-md: 4px 4px 0 0 var(--fhs-black);
+  --sl-shadow-lg: 8px 8px 0 0 var(--fhs-black);
+}
+
+/* Dark mode — ladder inverts: text-contrast on top, canvas at bottom */
+:root[data-theme='dark'] {
+  --sl-color-white:           var(--fhs-paper);     /* high-contrast text */
+  --sl-color-gray-1:          var(--fhs-ink-05);    /* near-text */
+  --sl-color-gray-2:          var(--fhs-ink-15);    /* body / sidebar text */
+  --sl-color-gray-3:          var(--fhs-ink-30);    /* muted text */
+  --sl-color-gray-4:          var(--fhs-ink-50);    /* disabled / placeholder */
+  --sl-color-gray-5:          var(--fhs-ink-70);    /* borders / dividers */
+  --sl-color-gray-6:          var(--fhs-ink-90);    /* subtle bg tint */
+  --sl-color-gray-7:          var(--fhs-ink-90);
+  --sl-color-black:           var(--fhs-black);     /* canvas */
+
+  --sl-color-accent-low:      #4A1A33;
+  --sl-color-accent:          var(--fhs-magenta);
+  --sl-color-accent-high:     #FFB3DC;
+
+  --sl-color-text:            var(--fhs-paper);
+  --sl-color-text-accent:     var(--fhs-magenta);
+  --sl-color-text-invert:     var(--fhs-black);
+  --sl-color-bg:              var(--fhs-black);
+  --sl-color-bg-nav:          var(--fhs-black);
+  --sl-color-bg-sidebar:      var(--fhs-black);
+  --sl-color-bg-inline-code:  var(--fhs-ink-90);
+  --sl-color-hairline-light:  var(--fhs-ink-70);
+  --sl-color-hairline:        var(--fhs-paper);
+  --sl-color-hairline-shade:  var(--fhs-ink-70);
+
+  --shadow-pop:       4px 4px 0 0 var(--fhs-paper);
+  --shadow-pop-lg:    8px 8px 0 0 var(--fhs-paper);
+}
+
+/* ============================================================
+   GLOBAL — typography baseline
+   ============================================================ */
+
+body {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6,
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3,
+.sl-markdown-content h4,
+.sl-markdown-content h5,
+.sl-markdown-content h6 {
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+  line-height: 1.15;
+  text-wrap: pretty;
+}
+
+.sl-markdown-content h1 { line-height: 1.1; }
+.sl-markdown-content h2 { line-height: 1.15; }
+
+.sl-markdown-content h3 {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  line-height: 1.25;
+}
+.sl-markdown-content h4 {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+.sl-markdown-content h5,
+.sl-markdown-content h6 {
+  font-family: var(--font-headline);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 1.35;
+}
+
+/* Starlight injects anchor links inside headings — kill the body-link styling on them */
+.sl-markdown-content h1 a,
+.sl-markdown-content h2 a,
+.sl-markdown-content h3 a,
+.sl-markdown-content h4 a,
+.sl-markdown-content h5 a,
+.sl-markdown-content h6 a,
+.sl-markdown-content .sl-anchor-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+code, kbd, pre, samp {
+  font-family: var(--font-mono);
+}
+
+::selection { background: var(--fhs-yellow); color: var(--fhs-black); }
+:root[data-theme='dark'] ::selection { background: var(--fhs-magenta); color: var(--fhs-paper); }
+
+/* Body content — comfortable reading rhythm */
+.sl-markdown-content {
+  line-height: 1.6;
+}
+.sl-markdown-content p,
+.sl-markdown-content li {
+  line-height: 1.6;
+}
+.sl-markdown-content > h2:not(:first-child) { margin-top: 2.5em; }
+.sl-markdown-content > h3:not(:first-child) { margin-top: 2em; }
+.sl-markdown-content > h4:not(:first-child) { margin-top: 1.75em; }
+.sl-markdown-content > p,
+.sl-markdown-content > ul,
+.sl-markdown-content > ol {
+  margin-block: 1em;
+}
+.sl-markdown-content ul,
+.sl-markdown-content ol {
+  padding-left: 1.5em;
+}
+.sl-markdown-content li + li {
+  margin-top: 0.35em;
+}
+.sl-markdown-content strong,
+.sl-markdown-content b {
+  font-weight: 700;
+}
+
+/* Links — cobalt by default, swap to black on hover (system rule) */
+.sl-markdown-content a:not(:where(.not-content *, .sl-anchor-link)) {
+  color: var(--fhs-cobalt);
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  transition: color 120ms ease, text-decoration-thickness 120ms ease;
+}
+.sl-markdown-content a:not(:where(.not-content *, .sl-anchor-link)):hover {
+  color: var(--fhs-black);
+  text-decoration-thickness: 3px;
+}
+:root[data-theme='dark'] .sl-markdown-content a:not(:where(.not-content *, .sl-anchor-link)) {
+  color: var(--fhs-magenta);
+}
+:root[data-theme='dark'] .sl-markdown-content a:not(:where(.not-content *, .sl-anchor-link)):hover {
+  color: var(--fhs-yellow);
+}
+
+/* Inline code — subtle chip, no heavy border (keeps body text readable) */
+.sl-markdown-content :not(a, h1, h2, h3, h4, h5, h6) > code:not(:where(.not-content *)) {
+  background: var(--sl-color-bg-inline-code);
+  border: 1px solid var(--fhs-ink-15);
+  border-radius: 2px;
+  padding: 1px 5px;
+  font-size: 0.88em;
+  font-weight: 500;
+}
+:root[data-theme='dark'] .sl-markdown-content :not(a, h1, h2, h3, h4, h5, h6) > code:not(:where(.not-content *)) {
+  background: var(--fhs-ink-90);
+  border-color: var(--fhs-ink-70);
+  color: var(--fhs-magenta);
+}
+
+/* Code blocks — sharp edges, bold border */
+.sl-markdown-content .expressive-code .frame,
+.sl-markdown-content pre {
+  border-radius: 0 !important;
+  border: 2px solid var(--fhs-black) !important;
+  box-shadow: var(--shadow-pop) !important;
+}
+:root[data-theme='dark'] .sl-markdown-content .expressive-code .frame,
+:root[data-theme='dark'] .sl-markdown-content pre {
+  border-color: var(--fhs-paper) !important;
+}
+
+/* Tables — bold, no rounded corners */
+.sl-markdown-content table {
+  border: 2px solid var(--fhs-black);
+  border-radius: 0;
+}
+.sl-markdown-content table th,
+.sl-markdown-content table td {
+  border: 1px solid var(--fhs-ink-15);
+}
+.sl-markdown-content table thead {
+  background: var(--fhs-black);
+  color: var(--fhs-paper);
+  font-family: var(--font-headline);
+  font-weight: 700;
+}
+.sl-markdown-content table thead th {
+  border-color: var(--fhs-black);
+}
+:root[data-theme='dark'] .sl-markdown-content table {
+  border-color: var(--fhs-paper);
+}
+:root[data-theme='dark'] .sl-markdown-content table thead {
+  background: var(--fhs-paper);
+  color: var(--fhs-black);
+}
+
+/* Blockquote — magenta bar */
+.sl-markdown-content blockquote {
+  border-left: 4px solid var(--fhs-magenta);
+  border-radius: 0;
+  padding-left: 1em;
+  background: transparent;
+}
+
+/* HR — bold rule */
+.sl-markdown-content hr {
+  border: 0;
+  border-top: 2px solid var(--fhs-black);
+  margin: 2em 0;
+}
+:root[data-theme='dark'] .sl-markdown-content hr {
+  border-top-color: var(--fhs-paper);
+}
+
+/* ============================================================
+   STARLIGHT CHROME — nav + sidebar + header
+   ============================================================ */
+
+/* Top header — bold rule under it, no soft shadow */
+header.header {
+  border-bottom: 2px solid var(--fhs-black);
+  box-shadow: none;
+}
+:root[data-theme='dark'] header.header {
+  border-bottom-color: var(--fhs-paper);
+}
+
+/* Site title — Archivo Black */
+.site-title,
+a.site-title {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+
+/* Sidebar nav — typography + spacing */
+.sidebar-content {
+  font-family: var(--font-body);
+}
+.sidebar-content summary,
+.sidebar-content a {
+  border-radius: 0 !important;
+}
+.sidebar-content summary {
+  font-family: var(--font-headline);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--sl-color-white); /* high-contrast text */
+}
+/* Top-level group headings (text inside summary) */
+.sidebar-content .group-label,
+.sidebar-content .large {
+  color: var(--sl-color-white);
+  font-family: var(--font-headline);
+  font-weight: 700;
+}
+/* All sidebar links — clear, readable */
+.sidebar-content a {
+  color: var(--sl-color-gray-2);
+  font-weight: 500;
+}
+.sidebar-content a:hover {
+  color: var(--sl-color-white);
+  background: var(--sl-color-gray-6);
+}
+.sidebar-content a[aria-current='page'] {
+  background: var(--fhs-yellow);
+  color: var(--fhs-black) !important;
+  font-weight: 700;
+  border-inline-start: 2px solid var(--fhs-black) !important;
+}
+:root[data-theme='dark'] .sidebar-content a[aria-current='page'] {
+  background: var(--fhs-magenta);
+  color: var(--fhs-paper) !important;
+  border-inline-start-color: var(--fhs-paper) !important;
+}
+
+/* Right-hand TOC — readable, not mono-uppercase */
+starlight-toc nav ul {
+  border-inline-start-color: var(--fhs-ink-15);
+}
+starlight-toc nav a {
+  border-radius: 0 !important;
+  font-family: var(--font-body);
+  font-size: 13px;
+  letter-spacing: 0;
+}
+starlight-toc nav a[aria-current='true'] {
+  color: var(--fhs-magenta);
+  font-weight: 700;
+  border-inline-start-color: var(--fhs-magenta) !important;
+}
+
+/* Pagination cards (prev/next) — pop cards, no transform shift */
+.pagination-links a {
+  border: 2px solid var(--fhs-black) !important;
+  border-radius: 0 !important;
+  box-shadow: var(--shadow-pop);
+  transition: box-shadow 120ms ease, background-color 120ms ease;
+}
+.pagination-links a:hover {
+  background: var(--fhs-yellow);
+  color: var(--fhs-black);
+}
+:root[data-theme='dark'] .pagination-links a {
+  border-color: var(--fhs-paper) !important;
+  box-shadow: 4px 4px 0 0 var(--fhs-paper);
+}
+:root[data-theme='dark'] .pagination-links a:hover {
+  background: var(--fhs-magenta);
+  color: var(--fhs-paper);
+}
+
+/* ============================================================
+   SPLASH HERO (homepage)
+   ============================================================ */
+
+.hero {
   position: relative;
-  width: 100%;
-  height: 0;
-  padding-top: 56.25%;
-  box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
-  overflow: hidden;
-  border-radius: 8px;
-  will-change: transform;
+  padding-block: 3rem !important;
 }
 
-.canva-embed iframe {
+/* Warhol halftone dot panel on hero */
+.hero::before {
+  content: '';
   position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border: none;
-  padding: 0;
-  margin: 0;
+  top: -30px;
+  right: -60px;
+  width: 360px;
+  height: 360px;
+  background-image: radial-gradient(circle, var(--fhs-magenta) 28%, transparent 32%);
+  background-size: 18px 18px;
+  opacity: 0.9;
+  z-index: 0;
+  pointer-events: none;
+}
+:root[data-theme='dark'] .hero::before {
+  background-image: radial-gradient(circle, var(--fhs-magenta) 28%, transparent 32%);
 }
 
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1,
+.hero .hero-html h1 {
+  font-family: var(--font-display);
+  letter-spacing: -0.025em;
+  line-height: 0.92;
+  text-wrap: balance;
+}
+
+.hero .tagline {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: var(--fhs-ink-70);
+  max-width: 48ch;
+}
+:root[data-theme='dark'] .hero .tagline {
+  color: var(--fhs-ink-30);
+}
+
+/* Hero image — paper card with offset shadow, mimicking .hero-mark */
+.hero img {
+  background: var(--fhs-paper);
+  border: 2px solid var(--fhs-black);
+  box-shadow: var(--shadow-pop-lg);
+  padding: 22px 18px;
+  border-radius: 0;
+}
+:root[data-theme='dark'] .hero img {
+  border-color: var(--fhs-paper);
+  box-shadow: 8px 8px 0 0 var(--fhs-paper);
+}
+
+/* Hero CTAs — pop buttons */
+.hero .actions a,
+.hero a.button {
+  font-family: var(--font-headline) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em;
+  border: 2px solid var(--fhs-black) !important;
+  border-radius: 0 !important;
+  background: var(--fhs-black) !important;
+  color: var(--fhs-paper) !important;
+  box-shadow: var(--shadow-pop);
+  transition: transform 80ms ease, box-shadow 80ms ease, background 120ms ease;
+  text-transform: none;
+}
+.hero .actions a:hover,
+.hero a.button:hover {
+  background: var(--fhs-magenta) !important;
+  border-color: var(--fhs-magenta) !important;
+  color: var(--fhs-paper) !important;
+}
+.hero .actions a:active,
+.hero a.button:active {
+  transform: translate(4px, 4px);
+  box-shadow: 0 0 0 0 transparent;
+}
+:root[data-theme='dark'] .hero .actions a,
+:root[data-theme='dark'] .hero a.button {
+  background: var(--fhs-paper) !important;
+  color: var(--fhs-black) !important;
+  border-color: var(--fhs-paper) !important;
+  box-shadow: 4px 4px 0 0 var(--fhs-magenta);
+}
+:root[data-theme='dark'] .hero .actions a:hover,
+:root[data-theme='dark'] .hero a.button:hover {
+  background: var(--fhs-magenta) !important;
+  color: var(--fhs-paper) !important;
+  border-color: var(--fhs-magenta) !important;
+}
+
+/* Secondary/ghost variants */
+.hero .actions a.minimal,
+.hero a.button.minimal {
+  background: transparent !important;
+  color: var(--fhs-black) !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+.hero .actions a.minimal:hover,
+.hero a.button.minimal:hover {
+  background: transparent !important;
+  color: var(--fhs-magenta) !important;
+}
+:root[data-theme='dark'] .hero .actions a.minimal,
+:root[data-theme='dark'] .hero a.button.minimal {
+  color: var(--fhs-paper) !important;
+}
+
+/* ============================================================
+   COURSE BANNER (custom component)
+   ============================================================ */
+
+.course-banner {
+  --bg: var(--fhs-paper);
+  --fg: var(--fhs-black);
+  --rule: var(--fhs-black);
+
+  background: var(--bg);
+  color: var(--fg);
+  border: 2px solid var(--rule);
+  box-shadow: 6px 6px 0 0 var(--rule);
+  padding: 22px 22px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 320px;
+  position: relative;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+.course-banner:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 8px 8px 0 0 var(--rule);
+}
+
+.course-banner--magenta { --bg: var(--fhs-magenta); --fg: var(--fhs-paper); --rule: var(--fhs-black); }
+.course-banner--cobalt  { --bg: var(--fhs-cobalt);  --fg: var(--fhs-paper); --rule: var(--fhs-black); }
+.course-banner--yellow  { --bg: var(--fhs-yellow);  --fg: var(--fhs-black); --rule: var(--fhs-black); }
+.course-banner--mint    { --bg: var(--fhs-mint);    --fg: var(--fhs-black); --rule: var(--fhs-black); }
+.course-banner--violet  { --bg: var(--fhs-violet);  --fg: var(--fhs-paper); --rule: var(--fhs-black); }
+.course-banner--paper   { --bg: var(--fhs-paper);   --fg: var(--fhs-black); --rule: var(--fhs-black); }
+
+:root[data-theme='dark'] .course-banner--paper {
+  --bg: var(--fhs-ink-90);
+  --fg: var(--fhs-paper);
+  --rule: var(--fhs-paper);
+}
+
+.course-banner__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.course-banner__badge {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 4px 9px;
+  border: 2px solid currentColor;
+  display: inline-block;
+  line-height: 1.2;
+}
+
+.course-banner__title {
+  font-family: var(--font-display);
+  font-size: 28px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  margin: 4px 0 0;
+  color: inherit;
+  text-wrap: balance;
+}
+
+.course-banner__text {
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.45;
+  margin: 0;
+  flex: 1;
+  color: inherit;
+}
+
+.course-banner__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: auto;
+}
+
+.course-banner__link {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 14px;
+  color: inherit !important;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  align-self: flex-start;
+}
+.course-banner__link:hover {
+  text-decoration-thickness: 3px;
+}
+
+/* Banner grid */
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-block: 2rem;
+}
+
+/* ============================================================
+   EMBEDS — match the system (no soft shadow, sharp edges)
+   ============================================================ */
+
+.canva-embed,
 .youtube-embed {
   position: relative;
   width: 100%;
   height: 0;
   padding-top: 56.25%;
-  box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+  border: 2px solid var(--fhs-black);
+  box-shadow: var(--shadow-pop);
+  border-radius: 0;
   overflow: hidden;
-  border-radius: 8px;
+  will-change: transform;
+  margin-block: 1.5rem;
+}
+:root[data-theme='dark'] .canva-embed,
+:root[data-theme='dark'] .youtube-embed {
+  border-color: var(--fhs-paper);
+  box-shadow: 4px 4px 0 0 var(--fhs-paper);
 }
 
+.canva-embed iframe,
 .youtube-embed iframe {
   position: absolute;
   width: 100%;
@@ -39,4 +655,192 @@
   border: none;
   padding: 0;
   margin: 0;
+}
+
+/* ============================================================
+   ASIDES (note, tip, caution, danger) — flat colour blocks
+   ============================================================ */
+
+.sl-markdown-content .starlight-aside {
+  border-radius: 0 !important;
+  border: 2px solid var(--fhs-black);
+  padding: 1rem 1.25rem;
+  background: var(--fhs-ink-05);
+}
+.sl-markdown-content .starlight-aside--note    { background: var(--fhs-ink-05); }
+.sl-markdown-content .starlight-aside--tip     { background: #E6FBF4; border-color: var(--fhs-mint); }
+.sl-markdown-content .starlight-aside--caution { background: #FFF6CC; border-color: var(--fhs-yellow); }
+.sl-markdown-content .starlight-aside--danger  { background: #FFDDD2; border-color: var(--fhs-vermilion); }
+
+.sl-markdown-content .starlight-aside__title {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+:root[data-theme='dark'] .sl-markdown-content .starlight-aside {
+  background: var(--fhs-ink-90);
+  border-color: var(--fhs-paper);
+  color: var(--fhs-paper);
+}
+:root[data-theme='dark'] .sl-markdown-content .starlight-aside--tip     { border-color: var(--fhs-mint); }
+:root[data-theme='dark'] .sl-markdown-content .starlight-aside--caution { border-color: var(--fhs-yellow); }
+:root[data-theme='dark'] .sl-markdown-content .starlight-aside--danger  { border-color: var(--fhs-vermilion); }
+
+/* Focus states — solid cobalt outline */
+:focus-visible {
+  outline: 2px solid var(--fhs-cobalt);
+  outline-offset: 2px;
+}
+
+/* ============================================================
+   SEARCH MODAL (Pagefind UI, wrapped by Starlight <dialog>)
+   ============================================================ */
+
+dialog[open] {
+  background: var(--sl-color-bg);
+  color: var(--sl-color-text);
+  border: 2px solid var(--fhs-black);
+  border-radius: 0;
+  box-shadow: 8px 8px 0 0 var(--fhs-magenta);
+  padding: 0;
+}
+:root[data-theme='dark'] dialog[open] {
+  border-color: var(--fhs-paper);
+  box-shadow: 8px 8px 0 0 var(--fhs-magenta);
+}
+dialog::backdrop {
+  background: rgba(10, 10, 10, 0.65);
+}
+
+/* Pagefind UI — typography + form */
+.pagefind-ui {
+  --pagefind-ui-primary: var(--fhs-magenta);
+  --pagefind-ui-text: var(--sl-color-text);
+  --pagefind-ui-background: var(--sl-color-bg);
+  --pagefind-ui-border: var(--fhs-black);
+  --pagefind-ui-tag: var(--fhs-ink-05);
+  --pagefind-ui-border-width: 2px;
+  --pagefind-ui-border-radius: 0;
+  --pagefind-ui-font: var(--font-body);
+  color: var(--sl-color-text);
+}
+:root[data-theme='dark'] .pagefind-ui {
+  --pagefind-ui-border: var(--fhs-paper);
+  --pagefind-ui-tag: var(--fhs-ink-90);
+}
+
+.pagefind-ui__search-input {
+  font-family: var(--font-display) !important;
+  font-size: 1.25rem !important;
+  letter-spacing: -0.01em;
+  background: var(--sl-color-bg) !important;
+  color: var(--sl-color-text) !important;
+  border: 0 !important;
+  border-bottom: 2px solid var(--fhs-black) !important;
+  border-radius: 0 !important;
+  padding: 1rem 1.25rem !important;
+}
+:root[data-theme='dark'] .pagefind-ui__search-input {
+  border-bottom-color: var(--fhs-paper) !important;
+}
+.pagefind-ui__search-input::placeholder {
+  color: var(--fhs-ink-50);
+}
+
+.pagefind-ui__search-clear {
+  background: var(--fhs-black) !important;
+  color: var(--fhs-paper) !important;
+  border-radius: 0 !important;
+  font-family: var(--font-headline);
+  font-weight: 700;
+}
+:root[data-theme='dark'] .pagefind-ui__search-clear {
+  background: var(--fhs-paper) !important;
+  color: var(--fhs-black) !important;
+}
+
+.pagefind-ui__results-area {
+  padding: 0 1.25rem 1rem;
+}
+
+.pagefind-ui__message {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sl-color-gray-3);
+  padding: 0.75rem 0;
+}
+
+.pagefind-ui__result {
+  border-top: 1px solid var(--sl-color-gray-5) !important;
+  padding: 1rem 0 !important;
+}
+.pagefind-ui__result-link {
+  font-family: var(--font-headline) !important;
+  font-weight: 700 !important;
+  color: var(--sl-color-text) !important;
+  text-decoration: none !important;
+  font-size: 1rem !important;
+}
+.pagefind-ui__result-link:hover {
+  color: var(--fhs-magenta) !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 3px !important;
+}
+.pagefind-ui__result-excerpt {
+  color: var(--sl-color-gray-2) !important;
+  font-size: 0.9rem !important;
+  line-height: 1.5 !important;
+}
+.pagefind-ui__result-excerpt mark {
+  background: var(--fhs-yellow);
+  color: var(--fhs-black);
+  padding: 0 2px;
+}
+:root[data-theme='dark'] .pagefind-ui__result-excerpt mark {
+  background: var(--fhs-magenta);
+  color: var(--fhs-paper);
+}
+
+.pagefind-ui__button {
+  font-family: var(--font-headline) !important;
+  font-weight: 700 !important;
+  background: var(--fhs-black) !important;
+  color: var(--fhs-paper) !important;
+  border: 2px solid var(--fhs-black) !important;
+  border-radius: 0 !important;
+  box-shadow: var(--shadow-pop) !important;
+  padding: 0.5rem 1rem !important;
+}
+.pagefind-ui__button:hover {
+  background: var(--fhs-magenta) !important;
+  border-color: var(--fhs-magenta) !important;
+}
+:root[data-theme='dark'] .pagefind-ui__button {
+  background: var(--fhs-paper) !important;
+  color: var(--fhs-black) !important;
+  border-color: var(--fhs-paper) !important;
+}
+
+/* The "Search" button in the nav that opens the modal */
+site-search button {
+  font-family: var(--font-body) !important;
+  border: 2px solid var(--fhs-black) !important;
+  border-radius: 0 !important;
+  background: var(--sl-color-bg) !important;
+  color: var(--sl-color-text) !important;
+}
+:root[data-theme='dark'] site-search button {
+  border-color: var(--fhs-paper) !important;
+}
+site-search button:hover {
+  background: var(--fhs-yellow) !important;
+  color: var(--fhs-black) !important;
+}
+:root[data-theme='dark'] site-search button:hover {
+  background: var(--fhs-magenta) !important;
+  color: var(--fhs-paper) !important;
 }

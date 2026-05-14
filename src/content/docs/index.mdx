@@ -1,46 +1,54 @@
 ---
 title: Kurzy na Katedře psychologie a věd o životě, FHS UK
 description: Podpůrné materiály a veřejné zdroje
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+template: splash
 hero:
-  tagline: Zejména kurzy Lukáše Hejtmánka. Vše oficiální je stále na Moodle, zde jsou základní informace a extra veřejné materiály
+  tagline: Zejména kurzy Lukáše Hejtmánka. Vše oficiální je stále na Moodle, zde jsou základní informace a extra veřejné materiály.
   image:
-    file: ../../assets/KPVZ-logo.png
+    file: ../../assets/brand/logo-primary-black.svg
   actions:
     - text: Webová stránka KPVZ FHS UK
       link: https://kpvz.cyberspacelab.cz
       icon: right-arrow
+      variant: primary
 ---
 
-import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
 import CourseBanner from '../../components/CourseBanner.astro';
 
 ## Seznam kurzů
 
-<CardGrid stagger>
-    <CourseBanner
-      title="Diplomní seminář bakalářský"
-      icon="document"
-      text="Informace a materiály k diplomnímu semináři"
-      materialsHref="/diploma-seminar-bachelor/"
-      moodleHref="11063"
-    />
-    <CourseBanner
-      title="Techniky experimentální psychologie - PsychoPy"
-      icon="seti:python"
-      text="Praktické dovednosti v tvorbě psychologických experimentů pomocí PsychoPy"
-      materialsHref="/experimental-techniques/"
-    />
-    <CourseBanner
-      title="Specifické přístupy zpracování dat v psychologii"
-      icon="seti:bicep"
-      text="Praktické dovednosti v tvorbě psychologických experimentů pomocí PsychoPy"
-      materialsHref="/specific-data-processing-approaches/"
-    />
-    <CourseBanner
-      title="Úvod do environmentální psychologie"
-      icon="seti:jade"
-      text="Analýza psychologických účinků prostředí a návrhy zlepšení"
-      materialsHref="/environmental-psychology/"
-    />
-</CardGrid>
+<div class="course-grid not-content">
+  <CourseBanner
+    title="Diplomní seminář bakalářský"
+    code="BC · SEMINÁŘ"
+    level="Bakalář"
+    accent="magenta"
+    text="Informace a materiály k diplomnímu semináři."
+    materialsHref="/diploma-seminar-bachelor/"
+    moodleHref="11063"
+  />
+  <CourseBanner
+    title="Techniky experimentální psychologie — PsychoPy"
+    code="EXP · PSYCHOPY"
+    level="Praktikum"
+    accent="cobalt"
+    text="Praktické dovednosti v tvorbě psychologických experimentů pomocí PsychoPy."
+    materialsHref="/experimental-techniques/"
+  />
+  <CourseBanner
+    title="Specifické přístupy zpracování dat v psychologii"
+    code="DATA · METODA"
+    level="Magistr"
+    accent="yellow"
+    text="Pokročilé techniky zpracování dat — eye-tracking, OSINT a další."
+    materialsHref="/specific-data-processing-approaches/"
+  />
+  <CourseBanner
+    title="Úvod do environmentální psychologie"
+    code="ENV · PSY"
+    level="Bakalář"
+    accent="mint"
+    text="Analýza psychologických účinků prostředí a evidence-based návrhy zlepšení."
+    materialsHref="/environmental-psychology/"
+  />
+</div>

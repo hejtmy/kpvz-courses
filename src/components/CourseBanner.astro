@@ -1,20 +1,42 @@
 ---
-import {Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
-
 export interface Props {
   title: string;
-  icon: string;
   text: string;
   materialsHref: string;
-  moodleHref: string;
+  moodleHref?: string;
+  code?: string;
+  level?: string;
+  accent?: 'magenta' | 'cobalt' | 'yellow' | 'mint' | 'violet' | 'paper';
 }
 
-const props = Astro.props;
+const {
+  title,
+  text,
+  materialsHref,
+  moodleHref,
+  code,
+  level = 'Course',
+  accent = 'paper',
+} = Astro.props;
+
+const moodleUrl = moodleHref
+  ? `https://dl1.cuni.cz/course/view.php?id=${moodleHref}`
+  : null;
 ---
-<Card title={props.title} icon={props.icon}>
-    {props.text}
-    <CardGrid>
-      <LinkCard title="K materiálům" href={props.materialsHref} />
-      {props.moodleHref && <LinkCard title="Link na moodle" href={`https://dl1.cuni.cz/course/view.php?id=${props.moodleHref}`} />}
-    </CardGrid>
-</Card>
+
+<article class={`course-banner course-banner--${accent} not-content`}>
+  <div class="course-banner__top">
+    <span>{code ?? 'KPVZ · FHS UK'}</span>
+    <span class="course-banner__badge">{level}</span>
+  </div>
+  <h3 class="course-banner__title">{title}</h3>
+  <p class="course-banner__text">{text}</p>
+  <div class="course-banner__actions">
+    <a class="course-banner__link" href={materialsHref}>K materiálům →</a>
+    {moodleUrl && (
+      <a class="course-banner__link" href={moodleUrl} target="_blank" rel="noopener">
+        Moodle ↗
+      </a>
+    )}
+  </div>
+</article>
