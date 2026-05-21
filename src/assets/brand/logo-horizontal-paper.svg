@@ -1,29 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" fill="none">
-  
-
-  
-  <g stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="square">
-    <path d="M 25 190 L 25 60 Q 25 22 65 22 L 135 22 Q 175 22 175 60 L 175 190 Z"></path>
-    <line x1="58" y1="36" x2="58" y2="190"></line>
-    <line x1="88" y1="25" x2="88" y2="190"></line>
-    <line x1="112" y1="22" x2="112" y2="190"></line>
-    <line x1="142" y1="25" x2="142" y2="190"></line>
-    <line x1="27" y1="70" x2="173" y2="70"></line>
-    <line x1="25" y1="116" x2="175" y2="116"></line>
-    <line x1="25" y1="158" x2="175" y2="158"></line>
-  </g>
-  <g fill="#FFFFFF">
-    <path d="M 62 78&#xA;             L 80 78&#xA;             L 80 130&#xA;             Q 80 148 96 150&#xA;             L 96 78&#xA;             L 104 78&#xA;             L 104 150&#xA;             Q 120 148 120 130&#xA;             L 120 78&#xA;             L 138 78&#xA;             L 138 134&#xA;             Q 138 162 104 167&#xA;             L 104 186&#xA;             L 96 186&#xA;             L 96 167&#xA;             Q 62 162 62 134&#xA;             Z"></path>
-    <rect x="97" y="40" width="6" height="42"></rect>
-  </g>
-
-  
-  <g fill="#FFFFFF" font-family="Archivo Black, Helvetica Neue, Arial, sans-serif">
-    <text x="210" y="90" font-size="62" letter-spacing="-2">FHS</text>
-    <text x="210" y="138" font-size="28" letter-spacing="0" font-family="Archivo, Helvetica Neue, Arial, sans-serif" font-weight="800">PSYCHOLOGIE</text>
-    <text x="210" y="172" font-size="13" letter-spacing="3" font-family="JetBrains Mono, monospace" font-weight="500">FAKULTA HUMANITNÍCH STUDIÍ · UK</text>
-  </g>
-
-  
-  <line x1="195" y1="22" x2="195" y2="178" stroke="#FFFFFF" stroke-width="2"></line>
+<svg width="655" height="444" viewBox="0 0 655 444" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M200 40V404M447.5 40V404M279.5 15.5V117.5V219.5M279.5 262.5V431M370.5 15.5V219.5M370.5 262.5V431" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"></path>
+<path d="M166.5 179.5H222.5M270.5 179.5H301M350.5 179.5H380M426 179.5H480.5M480.5 300H436M387.5 300H350.5M301 300H263M212.5 300H166.5M166.5 235H222.5M426 247H480.5" stroke="#FFFFFF" stroke-width="5" stroke-linecap="square"></path>
+<path d="M324 141.472L286.5 141.364C286.5 141.364 311 142.864 311 158.364C311 173.864 311 205.364 311 205.364V240.864C285.563 240.964 261.124 228.472 258 187.864C255 148.864 241.931 140.58 221 134.972C198 128.08 182.5 134.624 165.5 139.972C193.824 131.061 213.658 127.509 227.5 155.864C237.5 189.864 230.5 185.364 239.5 211.864C251 234.364 270 252.364 311 254.864V303.363C311 324.863 296 329.863 286.5 329.863L324.5 329.966" stroke="#FFFFFF" stroke-width="11" stroke-linecap="square"></path>
+<path d="M324 141.472L362.5 141.364C362.5 141.364 338 142.864 338 158.364C338 173.864 338 205.364 338 205.364V240.864C363.437 240.964 387.876 228.472 391 187.864C394 148.864 407.069 140.58 428 134.972C451 128.08 466.5 134.624 483.5 139.972C455.176 131.061 435.342 127.509 421.5 155.864C411.5 189.864 418.5 185.364 409.5 211.864C398 234.364 379 252.364 338 254.864V303.363C338 324.863 353 329.863 362.5 329.863L324.5 329.966" stroke="#FFFFFF" stroke-width="11" stroke-linecap="square"></path>
+<path d="M485.5 387V63C430 31 395 5.5 324.5 5.5C254 5.5 218.323 30.6421 162.5 63V387C221.5 416.5 253.5 438.5 326.5 438.5C399.5 438.5 433.5 415.5 485.5 387Z" stroke="#FFFFFF" stroke-width="11" stroke-linecap="square"></path>
+<path d="M236.73 111.277C206.95 117.337 193 122 164.005 133V318.5C164.005 318.5 208.68 338.664 238.234 344.749C271.848 351.068 290.231 352.847 324 354C362.616 353.161 383.601 350.564 412.775 344.262C446.145 336.972 460 333.5 483.5 322.5V133L482.77 132.748C454.24 122.91 438.854 117.604 408.762 111.277L407.483 111.047C377.953 105.736 361.31 102.743 324 102C289.241 103.059 268.629 105.966 236.73 111.277Z" stroke="#FFFFFF" stroke-width="11" stroke-linecap="square"></path>
+<path d="M484.5 351.225V107.197C441.5 83 406.5 58 325 58C243.5 58 212 82.174 164.5 105.146V349.687C212 372.262 238 398.903 325.251 398.903C412.502 398.903 431 375.716 484.5 351.225Z" stroke="#FFFFFF" stroke-width="6" stroke-linecap="square"></path>
+<path d="M325 121V13.5M409.5 27.5V123.5M239.5 29V123.5M240.5 347.5V418.5M326 354V434.5M409.5 347.5V418.5" stroke="#FFFFFF" stroke-width="11" stroke-linecap="square"></path>
+<path d="M233.865 193C233.865 259 233.865 259 230.5 286.5C227.135 314 206.722 339.312 164.5 315.651C184.606 330.621 236 328 246 311C256 294 256 276.5 259 242.5" stroke="#FFFFFF" stroke-width="11" stroke-linecap="square"></path>
+<path d="M415 193C415 259 415.635 259 419 286.5C422.365 314 442.778 339.312 485 315.651C464.894 330.621 413.5 328 403.5 311C393.5 294 393.5 276.5 390.5 242.5" stroke="#FFFFFF" stroke-width="11" stroke-linecap="square"></path>
+<path d="M122.696 84L5.5 150.618V232.82M5.5 232.82V310.901M5.5 232.82H122.696M649.5 180.671V150.618L527.405 84V247.288H649.5V304.389L527.405 367V310.901" stroke="#FFFFFF" stroke-width="11" stroke-linecap="square"></path>
 </svg>

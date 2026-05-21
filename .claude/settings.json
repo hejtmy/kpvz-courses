@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p design-extract)",
+      "Bash(tar -xzf webfetch-1779353066135-pw5bo8.bin -C design-extract)",
+      "Bash(echo \"---EXIT $?---\")",
+      "Bash([ -f \"$BUNDLE/$f.svg\" ])",
+      "Bash([ -f \"$PROJ/$f.svg\" ])",
+      "Bash(cp /Users/lukashejtmanek/.claude/projects/-Users-lukashejtmanek-Documents-Projects-FHS-kpvz-courses/5869c3b6-8d83-409b-9bc4-2b7dea33fab8/tool-results/design-extract/fhs-psychology-design-system/project/assets/__TRACKED_VAR__.svg /Users/lukashejtmanek/Documents/Projects/FHS/kpvz-courses/src/assets/brand/__TRACKED_VAR__.svg)",
+      "Bash(sed -e 's/stroke=\"#0A0A0A\"/stroke=\"currentColor\"/g' -e 's/stroke=\"black\"/stroke=\"currentColor\"/g' /Users/lukashejtmanek/.claude/projects/-Users-lukashejtmanek-Documents-Projects-FHS-kpvz-courses/5869c3b6-8d83-409b-9bc4-2b7dea33fab8/tool-results/design-extract/fhs-psychology-design-system/project/assets/logo-icon-black.svg)",
+      "Bash(sed -e 's/stroke=\"#0A0A0A\"/stroke=\"currentColor\"/g' -e 's/stroke=\"black\"/stroke=\"currentColor\"/g' /Users/lukashejtmanek/.claude/projects/-Users-lukashejtmanek-Documents-Projects-FHS-kpvz-courses/5869c3b6-8d83-409b-9bc4-2b7dea33fab8/tool-results/design-extract/fhs-psychology-design-system/project/assets/logo-horizontal-black.svg)",
+      "Bash(sed -e 's/stroke=\"#0A0A0A\"/stroke=\"currentColor\"/g' -e 's/stroke=\"black\"/stroke=\"currentColor\"/g' /Users/lukashejtmanek/.claude/projects/-Users-lukashejtmanek-Documents-Projects-FHS-kpvz-courses/5869c3b6-8d83-409b-9bc4-2b7dea33fab8/tool-results/design-extract/fhs-psychology-design-system/project/assets/logo-primary-black.svg)",
+      "Bash(xargs kill)"
+    ]
+  }
+}
