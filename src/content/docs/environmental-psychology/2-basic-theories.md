@@ -1,5 +1,5 @@
 ---
-title: Lekce 2 - Základní teorie environmentální psychologie
+title: Lekce 2-3 - Základní teorie environmentální psychologie
 sidebar:
   order: 4
 ---
