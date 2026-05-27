@@ -389,6 +389,30 @@ starlight-toc nav a[aria-current='true'] {
 }
 
 /* ============================================================
+   LAYOUT — content width + right TOC column
+   Starlight's TwoColumnContent sizes the right-sidebar container
+   as sidebar-width + (leftover-space / 2). With the default
+   --sl-content-width of 45rem, the right column balloons on wide
+   screens and the vertical border-rule runs through mostly-empty
+   space — visually a "large right banner". We widen the content
+   to use that horizontal real estate, then pin the right column
+   to sidebar-width so it mirrors the left sidebar.
+   ============================================================ */
+
+@media (min-width: 72rem) {
+  :root {
+    --sl-content-width: 52rem;
+  }
+  .right-sidebar-container {
+    width: var(--sl-sidebar-width);
+  }
+  [data-has-sidebar][data-has-toc] .main-pane {
+    width: calc(100% - var(--sl-sidebar-width));
+    --sl-content-margin-inline: auto;
+  }
+}
+
+/* ============================================================
    SPLASH HERO (homepage)
    ============================================================ */
 

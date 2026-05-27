@@ -11,7 +11,15 @@
       "Bash(curl -s http://localhost:4321/environmental-psychology/attestation/ -o /tmp/attestation.html)",
       "Read(//tmp/**)",
       "Bash(curl -s \"http://localhost:4321/environmental-psychology/attestation/\" -o /tmp/att.html)",
-      "PowerShell($html = Invoke-WebRequest -UseBasicParsing 'http://localhost:4321/environmental-psychology/attestation/'; $html.Content | Out-File -Encoding utf8 'C:\\\\Users\\\\hejtm\\\\AppData\\\\Local\\\\Temp\\\\att.html'; \\(Get-Item 'C:\\\\Users\\\\hejtm\\\\AppData\\\\Local\\\\Temp\\\\att.html'\\).Length)"
+      "PowerShell($html = Invoke-WebRequest -UseBasicParsing 'http://localhost:4321/environmental-psychology/attestation/'; $html.Content | Out-File -Encoding utf8 'C:\\\\Users\\\\hejtm\\\\AppData\\\\Local\\\\Temp\\\\att.html'; \\(Get-Item 'C:\\\\Users\\\\hejtm\\\\AppData\\\\Local\\\\Temp\\\\att.html'\\).Length)",
+      "Bash(npm ls *)",
+      "Bash(xargs grep -l \"sl-content-width\\\\|sidebar\\\\|toc\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:4321/experimental-techniques/)",
+      "Bash(curl -s \"http://localhost:4321/src/styles/custom.css\")",
+      "Bash(curl -s http://localhost:4321/experimental-techniques/)",
+      "Bash(kill %1)",
+      "Bash(tasklist)",
+      "Bash(netstat -ano)"
     ],
     "deny": [],
     "ask": []

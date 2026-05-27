@@ -1,5 +1,5 @@
 ---
-title: Lekce 4 - Člověk a příroda
+title: Lekce 5 - Člověk a příroda
 sidebar:
   order: 8
 ---

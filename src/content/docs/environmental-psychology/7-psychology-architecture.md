@@ -1,10 +1,8 @@
 ---
-title: Lekce 6 - Psychologie architerktury
+title: Lekce 6-7 - Psychologie architerktury
 sidebar:
   order: 12
 ---
-
-
 
 ## Presentace
 
