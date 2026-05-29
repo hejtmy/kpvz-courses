@@ -24,6 +24,7 @@ export default defineConfig({
       },
       social: [{ icon: 'seti:html', label: 'web', href: 'https://kpvz.cyberspacelab.cz' }],
       sidebar: [
+        { label: 'Odevzdávání projektu', link: '/odevzdani-projektu/' },
         {
           label: 'Bakalářský diplomní seminář',
           autogenerate: { directory: 'diploma-seminar-bachelor' },

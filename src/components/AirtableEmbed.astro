@@ -1,0 +1,37 @@
+---
+export interface Props {
+  src: string;
+  height?: number;
+}
+
+const { src, height = 900 } = Astro.props;
+---
+
+<div class="airtable-embed-wrapper not-content">
+  <iframe
+    src={src}
+    frameborder="0"
+    width="100%"
+    height={height}
+    style={`height: ${height}px;`}
+  ></iframe>
+</div>
+
+<style>
+  .airtable-embed-wrapper {
+    border: 2px solid var(--fhs-black);
+    box-shadow: var(--shadow-pop);
+    overflow: hidden;
+    margin-block: 1.5rem;
+    background: transparent;
+  }
+  :global([data-theme='dark']) .airtable-embed-wrapper {
+    border-color: var(--fhs-paper);
+    box-shadow: 4px 4px 0 0 var(--fhs-paper);
+  }
+  .airtable-embed-wrapper iframe {
+    display: block;
+    border: none;
+    width: 100%;
+  }
+</style>

@@ -9,6 +9,9 @@ Vyberete si **konkrétní místo** (venkovní nebo vnitřní) a vypracujete **od
 
 Nejde o antropologii / etnografii: cílem není dělat rozhovory do hloubky ani interpretovat „významy“ čistě kvalitativně. Zaměřte se na **prostředí, pozorovatelné charakteristiky, jednoduché měření (dotazníky, preference matrix atd.) a teoreticky podložená vysvětlení**.
 
+Projekty odevzdávejte jako PDF či zip prostřednictvím [formuláře pro odevzdávání projektu](/odevzdani-projektu/).
+
+
 ### 0) Výběr místa
 
 Zvolte místo, které:

@@ -1,5 +1,5 @@
 ---
-title: Lekce 11 - Inkluzivní architektura
+title: Lekce 12 - Inkluzivní architektura
 sidebar:
   order: 21
 ---
