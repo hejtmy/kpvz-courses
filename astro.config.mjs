@@ -1,11 +1,13 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { unified } from '@astrojs/markdown-remark';
 import remarkDirective from 'remark-directive';
 import remarkEmbeds from './src/plugins/remark-canva-embed.mjs';
 
 // https://astro.build/config
 export default defineConfig({
+  compressHTML: true,
   integrations: [
     starlight({
       title: 'KPVZ FHS Kurzy',
@@ -27,24 +29,24 @@ export default defineConfig({
         { label: 'Odevzdávání projektu', link: '/odevzdani-projektu/' },
         {
           label: 'Bakalářský diplomní seminář',
-          autogenerate: { directory: 'diploma-seminar-bachelor' },
+          items: [{ autogenerate: { directory: 'diploma-seminar-bachelor' } }],
         },
         {
           label: 'Techniky experimentální psychologie - PsychoPy',
-          autogenerate: { directory: 'experimental-techniques' },
+          items: [{ autogenerate: { directory: 'experimental-techniques' } }],
         },
         {
           label: 'Specifické přístupy zpracování dat v psychologii',
-          autogenerate: { directory: 'specific-data-processing-approaches' },
+          items: [{ autogenerate: { directory: 'specific-data-processing-approaches' } }],
         },
         {
           label: 'Úvod do environmentální psychologie',
-          autogenerate: { directory: 'environmental-psychology' },
+          items: [{ autogenerate: { directory: 'environmental-psychology' } }],
         },
       ],
     }),
   ],
   markdown: {
-    remarkPlugins: [remarkDirective, remarkEmbeds],
+    processor: unified({ remarkPlugins: [remarkDirective, remarkEmbeds] }),
   },
 });
