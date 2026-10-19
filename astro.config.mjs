@@ -47,6 +47,10 @@ export default defineConfig({
           label: 'Psychometrika',
           items: [{ autogenerate: { directory: 'psychometrics' } }],
         },
+        {
+          label: 'Úvod do psychologie',
+          items: [{ autogenerate: { directory: 'psychology-introduction' } }],
+        },
       ],
     }),
   ],
