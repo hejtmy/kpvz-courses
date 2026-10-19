@@ -43,6 +43,10 @@ export default defineConfig({
           label: 'Úvod do environmentální psychologie',
           items: [{ autogenerate: { directory: 'environmental-psychology' } }],
         },
+        {
+          label: 'Psychometrika',
+          items: [{ autogenerate: { directory: 'psychometrics' } }],
+        },
       ],
     }),
   ],

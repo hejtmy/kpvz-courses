@@ -3,6 +3,7 @@ title: Skupinový projekt
 description: Zadání skupinového projektu a kritéria pro jeho hodnocení v rámci kurzu Psychometrika
 ---
 
+
 Projekt je na cca 5-10 stran textu (bez tabulek a grafů). Měl by presentovat škálu a proces její tvorby, od konstruktu k otázkám, revizi a standardizaci.
 
 Projekt není možné přepracovat. Před odevzdáním projektu je důležité pečlivě projekt konzultovat a připravit jej k odevzdání s rozvahou (tvoří 50% hodnocení v kurzu). Termín pro odevzdání projektu je vždy týden před zkouškou.
