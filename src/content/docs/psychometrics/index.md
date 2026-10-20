@@ -1,6 +1,8 @@
 ---
 title: Základní informace
 description: Popis požadavků a materiály k psychometrice
+sidebar:
+  order: 1
 ---
 
 Předmět představuje a vysvětluje teoretické, metodologické i statistické koncepty pro porozumění měření v psychologii. Přednáškový cyklus je provázen cvičením, které rozvíjí především dovednosti aplikace teoretických poznatků psychometriky pro potřeby vlastního výzkumného projektu. Studující v průběhu semestru zpracovávají individuální či skupinový projekt, jehož podstatou je návrh a ověření psychodiagnostického dotazníku.

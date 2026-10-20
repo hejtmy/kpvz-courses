@@ -4,6 +4,7 @@ import starlight from '@astrojs/starlight';
 import { unified } from '@astrojs/markdown-remark';
 import remarkDirective from 'remark-directive';
 import remarkEmbeds from './src/plugins/remark-canva-embed.mjs';
+import remarkPresentation from './src/plugins/remark-presentation.mjs';
 
 // https://astro.build/config
 export default defineConfig({
@@ -55,6 +56,6 @@ export default defineConfig({
     }),
   ],
   markdown: {
-    processor: unified({ remarkPlugins: [remarkDirective, remarkEmbeds] }),
+    processor: unified({ remarkPlugins: [remarkDirective, remarkEmbeds, remarkPresentation] }),
   },
 });

@@ -868,3 +868,22 @@ site-search button:hover {
   background: var(--fhs-magenta) !important;
   color: var(--fhs-paper) !important;
 }
+
+/* PDF presentations — same frame as other embeds, 4:3-ish slide ratio + room for the viewer toolbar */
+.pdf-embed {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 2px solid var(--fhs-black);
+  box-shadow: var(--shadow-pop);
+  margin-block: 1.5rem 0.5rem;
+}
+:root[data-theme='dark'] .pdf-embed {
+  border-color: var(--fhs-paper);
+  box-shadow: 4px 4px 0 0 var(--fhs-paper);
+}
+.pdf-embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}

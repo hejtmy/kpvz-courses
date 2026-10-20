@@ -87,6 +87,17 @@ description: Page description
 ---
 ```
 
+Lesson presentations are set in frontmatter (not in the body). The `remark-presentation` plugin ([src/plugins/remark-presentation.mjs](src/plugins/remark-presentation.mjs)) renders a `## Presentace` section where the body contains a `:::presentation` block (`:::\n:::`), or before the first `##` heading when there is no block; pages without `presentation` render nothing (the block is removed):
+```yaml
+presentation:
+  type: canva            # embedded via iframe; `?embed` is added automatically
+  src: https://www.canva.com/design/.../view
+# or
+presentation:
+  type: pdf              # file in public/, path without the `/public` prefix
+  src: /courses-files/<course>/<file>.pdf
+```
+
 Homepage uses special `splash` template with hero section.
 
 ## Development Notes

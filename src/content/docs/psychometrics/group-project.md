@@ -1,6 +1,8 @@
 ---
 title: Skupinový projekt
 description: Zadání skupinového projektu a kritéria pro jeho hodnocení v rámci kurzu Psychometrika
+sidebar:
+  order: 5
 ---
 
 

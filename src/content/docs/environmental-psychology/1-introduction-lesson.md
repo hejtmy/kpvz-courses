@@ -2,11 +2,12 @@
 title: Lekce 1 - Představení kurzu environmentální psychologie
 sidebar:
   order: 3
+presentation:
+  type: canva
+  src: https://www.canva.com/design/DAHBk7uUx6w/Hf5TmG7n0gJYZTBLhXBebQ/view
 ---
 
-## Presentace
-
-:::canva{src="https://www.canva.com/design/DAHBk7uUx6w/Hf5TmG7n0gJYZTBLhXBebQ/view?embed"}
+:::presentation
 :::
 
 ## Doplňkové materiály a videa

@@ -1,7 +1,11 @@
 ---
 title: Lekce 1 - Úvodní setkání, historie a současnost psychologie
 sidebar:
-  order: 1
+  order: 11
+presentation:
+  type: canva
+  src: https://www.canva.com/design/DAHW-03M2Dc/RnNU9026PVaJ_Sw4Hl7jJA/view
+
 ---
 
 :::note[Povinná literatura]
@@ -10,10 +14,7 @@ sidebar:
 :::
 
 
-
-## Presentace
-
-:::
+:::presentation
 :::
 
 ## Doplňkové materiály a videa

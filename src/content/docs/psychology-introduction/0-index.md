@@ -1,6 +1,8 @@
 ---
 title: Základní informace
 description: Popis požadavků a materiály k úvodu do psychologie
+sidebar:
+  order: 1
 ---
 
 Psychologie je věda o vnějším a vnitřním světě člověka. Přestože je často spojovaná s klinickou praxí, poznatky z psychologie jsou denně využívány ve všech odvětvích lidské činnosti. Správné pochopení lidského chování a vnitřního světa každého z nás pomáhá nejen terapeutům, ale i pedagogům, spisovatelům či kriminalistům. Znalostí psychologie pak využívají statistici, lékaři, konstruktéři vesmírných lodí či trenéři, kteří chtějí ze svých atletů dostat co nejvíc. V sérii přednášek vám bude představena psychologie a její místo mezi vědami ve 21 století. 
