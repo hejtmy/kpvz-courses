@@ -3,4 +3,9 @@ title: Základní informace
 description: Popis požadavků a materiály k psychologii architektury
 ---
 
-Hele zde je text
+## O kurzu
+Kurz seznamuje studenty se základními otázkami psychologie architektury jako interdisciplinární oblasti na pomezí psychologie, architektury a urbanismu. Zaměřuje se na to, jak fyzické prostředí ovlivňuje prožívání, orientaci v prostoru i sociální interakce. Představeny budou základní teoretické přístupy (např. Jana Gehla) a principy navrhování prostředí v lidském měřítku, včetně témat spojených s kvalitou veřejného prostoru, s pohybem ve městě a čitelností prostředí. Kurz dále představí vybrané empirické výzkumy a intervence zaměřené na vliv architektonického a urbanistického uspořádání na psychickou pohodu, stres, pozornost a orientaci v různých typech prostředí.
+
+## Atestace
+
+K zakončení kurzu je vyžadována krátká prezentace vybraného výzkumu z oblasti psychologie architektury (bude probíhat průběžně v rámci celého semestru), aktivní zapojení do diskusí a splnění písemného testu (kombinace multiple choice a otevřených otázek).
