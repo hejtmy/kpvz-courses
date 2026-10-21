@@ -1,5 +1,5 @@
 ---
-title: Historie měření v psychologii
+title: Lekce 2 - Historie měření v psychologii
 presentation:
   type: canva
   src: https://www.canva.com/design/DAHWwxhokh0/YfsP_XoMDl95CqA03rsbsQ/view
