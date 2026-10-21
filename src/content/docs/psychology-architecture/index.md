@@ -19,13 +19,12 @@ K zakončení kurzu je vyžadována krátká prezentace vybraného výzkumu z ob
 |-------|------|
 | 1 | Úvod do psychologie architektury |
 | 2 | Úvod do psychologie architektury 2 (Jane Jacobs, Jan Gehl) |
-| 3 | Metody – jak měřit psychologické účinky prostředí |
-| 4 | Jak člověk vnímá a používá prostor |
-| 5 | Jak člověk vnímá a využívá prostor 2 |
-| 6 | Architektura podporující wellbeing |
-| 7 | Architektura podporující wellbeing 2 |
-| 8 | Psychické poruchy a architektura (agorafobie, klaustrofobie, PTSD) |
-| 9 | Senzoricky přístupné prostředí (ADHD, PAS) |
-| 10 | Stárnutí, neurokognitivní poruchy a architektura |
-| 11 | Psychiatrická a zdravotnická architektura |
-| 12 | Chování při katastrofách a mimořádných situacích |
+| 3 | Jak člověk vnímá a používá prostor |
+| 4 | Jak člověk vnímá a využívá prostor 2 |
+| 5 | Architektura podporující wellbeing |
+| 6 | Architektura podporující wellbeing 2 |
+| 7 | Psychické poruchy a architektura (agorafobie, klaustrofobie, PTSD) |
+| 8 | Senzoricky přístupné prostředí (ADHD, PAS) |
+| 9 | Stárnutí, neurokognitivní poruchy a architektura |
+| 10 | Psychiatrická a zdravotnická architektura |
+| 11 | Chování při katastrofách a mimořádných situacích |
