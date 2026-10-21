@@ -9,3 +9,20 @@ Kurz seznamuje studenty se základními otázkami psychologie architektury jako 
 ## Atestace
 
 K zakončení kurzu je vyžadována krátká prezentace vybraného výzkumu z oblasti psychologie architektury (bude probíhat průběžně v rámci celého semestru), aktivní zapojení do diskusí a splnění písemného testu (kombinace multiple choice a otevřených otázek).
+
+## Lekce
+
+| Lekce | Téma |
+|-------|------|
+| 1 | Úvod do psychologie architektury |
+| 2 | Úvod do psychologie architektury 2 (Jane Jacobs, Jan Gehl) |
+| 3 | Metody – jak měřit psychologické účinky prostředí |
+| 4 | Jak člověk vnímá a používá prostor |
+| 5 | Jak člověk vnímá a využívá prostor 2 |
+| 6 | Architektura podporující wellbeing |
+| 7 | Architektura podporující wellbeing 2 |
+| 8 | Psychické poruchy a architektura (agorafobie, klaustrofobie, PTSD) |
+| 9 | Senzoricky přístupné prostředí (ADHD, PAS) |
+| 10 | Stárnutí, neurokognitivní poruchy a architektura |
+| 11 | Psychiatrická a zdravotnická architektura |
+| 12 | Chování při katastrofách a mimořádných situacích |
