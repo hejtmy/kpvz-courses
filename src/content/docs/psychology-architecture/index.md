@@ -1,6 +1,9 @@
 ---
-title: Základní informace 
-description: Popis požadavků a materiály k psychologii architektury
+title: Psychologie architektury
+description: Základní informace o kurzu Psychologie architektury
+sidebar:
+  label: Úvod do kurzu
+  order: 1 
 ---
 
 ## O kurzu
