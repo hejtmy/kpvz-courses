@@ -36,7 +36,7 @@ Jak by měla vypadat průběžná práce na vašem projektu? Níže najdete jedn
 
 - [ ] **4. Vytvoření dotazníku v SurveyJS**
 
-  Podle [instruktážního videa](DOPLŇTE_ODKAZ) vytvořte svůj dotazník na platformě SurveyJS.
+  Podle *instruktážního videa* (link v emailu) vytvořte svůj dotazník na platformě SurveyJS.
 
   Dotazník by měl obsahovat:
   - název dotazníku, případně název měřeného konstruktu
@@ -46,7 +46,7 @@ Jak by měla vypadat průběžná práce na vašem projektu? Níže najdete jedn
 
 - [ ] **5. Odevzdání dotazníku**
 
-  Exportujte dotazník ve formátu JSON a odevzdejte jej jako zazipovaný soubor prostřednictvím Odevzdávárny projektu na Katedře psychologie a věd o životě. Stačí, když soubor odevzdá jeden člen skupiny. Do poznámky k odevzdání uveďte jména všech členů skupiny.
+  Exportujte dotazník ve formátu JSON a odevzdejte jej jako zazipovaný soubor prostřednictvím Odevzdávárny projektu (https://courses.fhspsych.cz/odevzdani-projektu) na Katedře psychologie a věd o životě. Stačí, když soubor odevzdá jeden člen skupiny. Do poznámky k odevzdání uveďte jména všech členů skupiny.
 
   > **Termín odevzdání pátek 23. 10. 2026.**
 
