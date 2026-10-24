@@ -9,6 +9,9 @@ import remarkPresentation from './src/plugins/remark-presentation.mjs';
 // https://astro.build/config
 export default defineConfig({
   compressHTML: true,
+  redirects: {
+    '/psychology-introduction/0-index/': '/psychology-introduction/',
+  },
   integrations: [
     starlight({
       title: 'KPVZ FHS Kurzy',
