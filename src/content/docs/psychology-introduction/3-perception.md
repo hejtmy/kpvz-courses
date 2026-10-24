@@ -8,14 +8,9 @@ presentation:
 ---
 
 :::note[Povinná literatura]
-
 **Kapitola Senzorické procesy, str. 139-166**
-
-
 **Kapitola Vnímání, str. 187-225**
 :::
-
-## Doplňkové materiály a videa
 
 :::presentation
 :::

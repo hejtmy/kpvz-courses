@@ -55,6 +55,10 @@ export default defineConfig({
           label: 'Úvod do psychologie',
           items: [{ autogenerate: { directory: 'psychology-introduction' } }],
         },
+        {
+          label: 'Psychologie architektury',
+          items: [{ autogenerate: { directory: 'psychology-architecture' } }],
+        },
       ],
     }),
   ],
