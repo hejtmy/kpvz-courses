@@ -52,6 +52,10 @@ export default defineConfig({
           label: 'Úvod do psychologie',
           items: [{ autogenerate: { directory: 'psychology-introduction' } }],
         },
+        {
+          label: 'Cviko k úvodu do psychologie',
+          items: [{ autogenerate: { directory: 'seminar-psychology' } }],
+        },
       ],
     }),
   ],
