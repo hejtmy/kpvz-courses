@@ -11,6 +11,9 @@ export default defineConfig({
   compressHTML: true,
   redirects: {
     '/psychology-introduction/0-index/': '/psychology-introduction/',
+    '/seminar-psychology/': '/psychology-introduction/#cvika',
+    '/seminar-psychology/1-lekce/': '/psychology-introduction/3-perception/#cvika',
+    '/seminar-psychology/2-lekce/': '/psychology-introduction/4-learning-memory/#cvika',
   },
   integrations: [
     starlight({

@@ -14,3 +14,10 @@ presentation:
 
 :::presentation
 :::
+
+## Cvika
+
+### 1. cviko – Poruchy vnímání a iluze
+
+:::canva{src="https://www.canva.com/design/DAHWHOHsSqw/DLIHCul1asrCpvE76rHwsQ/view?embed"}
+:::
