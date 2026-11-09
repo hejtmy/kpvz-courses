@@ -2,7 +2,7 @@
 title: Harmonogram a milníky projektu
 description: Jak by měla vypadat práce na projektu? 
 sidebar: 
-  order: 3
+  order: 4
 ---
 
 Jak by měla vypadat průběžná práce na vašem projektu? Níže najdete jednotlivé kroky, které vás provedou tvorbou vlastního dotazníku.
@@ -19,14 +19,13 @@ Jak by měla vypadat průběžná práce na vašem projektu? Níže najdete jedn
 9. **Standardizace a normy**
 
 
-## Dosavadní kroky
-### Teoretické ukotvení a konstrukt
+## Teoretické ukotvení a konstrukt
 
-- [x] **1. Vytvoření skupin**
+- [ ] **1. Vytvoření skupin**
 
   Vytvořte skupiny o maximálně 4 členech, ve kterých budete na skupinovém projektu pracovat.
 
-- [x] **2. Stanovení konstruktu**
+- [ ] **2. Stanovení konstruktu**
 
   Vyberte konstrukt, na který se ve svém projektu zaměříte. Při výběru zvažte, zda:
   - jej lze jasně definovat
@@ -36,9 +35,8 @@ Jak by měla vypadat průběžná práce na vašem projektu? Níže najdete jedn
 
   **Pozor:** Vyhněte se konstruktům, které vyžadují klinický vzorek nebo jsou eticky citlivé (např. suicidalita, sebepoškozování nebo trauma).  
 
-## Aktuální úkol
 ### Tvorba položek
-- [x] **1. Tvorba položek dotazníku**
+- [ ] **1. Tvorba položek dotazníku**
 
   Vytvořte položky pro pilotní fázi výzkumu. Při jejich tvorbě zohledněte zásady správné konstrukce dotazníkových položek. Připravte alespoň dvojnásobný počet položek, než kolik jich chcete ponechat ve finální verzi dotazníku.
 
@@ -46,7 +44,6 @@ Jak by měla vypadat průběžná práce na vašem projektu? Níže najdete jedn
   - měřit zvolený konstrukt
   - nepřekrývat se s jinými konstrukty
   - společně co nejúplněji vystihovat zvolený konstrukt
-
 
 - [ ] **2. Vytvoření dotazníku v SurveyJS**
 
@@ -64,13 +61,11 @@ Jak by měla vypadat průběžná práce na vašem projektu? Níže najdete jedn
 
   > **Termín odevzdání pátek 30. 10. 2026**
 
-
   **Jak zazipovat soubor JSON?**
   1. Najděte stažený soubor JSON.
   2. Klikněte na něj pravým tlačítkem a vyberte možnost „Komprimovat“ (případně „Komprimovat do ZIP“).
   3. Vzniklý ZIP soubor nahrajte do odevzdávárny.
 
-## Co vás čeká dál?
 ### Pilotáž
 
 - [ ] **1. Vzájemná revize dotazníků (pilotní testování)**
