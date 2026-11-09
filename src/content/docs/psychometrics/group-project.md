@@ -5,13 +5,14 @@ sidebar:
   order: 5
 ---
 
+Stránky dedikované tvorbě projektů jsou zde:
+[Psychometrická laboratoř nástroje](https://psychometrika.fhspsych.cz)
 
 Projekt je na cca 5-10 stran textu (bez tabulek a grafů). Měl by presentovat škálu a proces její tvorby, od konstruktu k otázkám, revizi a standardizaci.
 
 Projekt není možné přepracovat. Před odevzdáním projektu je důležité pečlivě projekt konzultovat a připravit jej k odevzdání s rozvahou (tvoří 50% hodnocení v kurzu). Termín pro odevzdání projektu je vždy týden před zkouškou.
 
 Níže je seznam cílů a témat, která by se měla v písemném zpracování semestrálního projektu objevit.
-
 
 ## Cíle
 
